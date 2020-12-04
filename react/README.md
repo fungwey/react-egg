@@ -54,3 +54,17 @@ react/src/models/search.js
   },
 }
 ```
+
+## 2-4 基于 react context api 实现数据流管理
+
+[react content 官方文档](https://zh-hans.reactjs.org/docs/context.html#gatsby-focus-wrapper)
+
+注意 Provider 和 Consumer
+
+## 2-5 LazyLoad 组件开发【基于 lazy 与 suspense 实现的懒加载组件】
+
+[代码分割 懒加载 react 官方文档](https://zh-hans.reactjs.org/docs/code-splitting.html)
+
+开启 .umirc.js dynamicImport: true 页面级的按需加载
+
+lazy, Suspense

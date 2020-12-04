@@ -4,6 +4,7 @@ import Search from './search';
 import Lists from './lists';
 import { getLists } from '@/services/search';
 import Consumer from './consumer';
+import LazyLoad from '@/components/LazyLoad';
 
 export default class Index extends Component {
   constructor(props) {
@@ -38,7 +39,8 @@ export default class Index extends Component {
         <SearchContext.Provider value={{ state: this.state, dispatch: this.handleDispatch }}>
           {/* 消费组件，订阅provider属性，来渲染 */}
           <Search />
-          <Lists />
+          {/* <Lists /> */}
+          <LazyLoad component={import('./lists')} />
           <Consumer />
         </SearchContext.Provider>
       </div>
