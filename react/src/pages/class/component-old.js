@@ -1,5 +1,6 @@
-import React, { Component, PureComponent } from 'react';
+import React, { PureComponent } from 'react';
 /**
+ * Component
  * PureComponent 只能监控浅数据
  */
 export default class ComponentOld extends PureComponent {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SearchContext from './searchContext';
 import Search from './search';
-import Lists from './lists';
+// import Lists from './lists';
 import { getLists } from '@/services/search';
 import Consumer from './consumer';
 import LazyLoad from '@/components/LazyLoad';
