@@ -99,3 +99,14 @@ componentDidCatch(error, info) {
 ```
 
 [错误边界（Error Boundaries）](https://zh-hans.reactjs.org/docs/error-boundaries.html)
+
+## 2-7 Modal 组件开发【基于 createPortal 创建自定义弹窗组件】
+
+react/src/pages/class/modal/index.js
+[官网文档](https://zh-hans.reactjs.org/docs/portals.html)
+
+生成 protal
+react/src/components/CreateProtal/index.js
+
+封装 protal 弹窗
+react/src/components/Modal/index.js
