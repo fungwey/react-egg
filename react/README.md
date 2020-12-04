@@ -68,3 +68,34 @@ react/src/models/search.js
 开启 .umirc.js dynamicImport: true 页面级的按需加载
 
 lazy, Suspense
+
+## 2-6 ErrorBoundary 组件开发【基于 React 错误边界技术实现的组件】
+
+错误边界是一种 React 组件，这种组件可以捕获并打印发生在其子组件树任何位置的 JavaScript 错误，并且，它会渲染出备用 UI，而不是渲染那些崩溃了的子组件树。错误边界在渲染期间、生命周期方法和整个组件树的构造函数中捕获错误。
+
+react/src/components/ErrorBoundary/index.js
+
+```javascript
+
+static getDerivedStateFromError(error) {
+  console.log(error);
+  // 更新 state 使下一次渲染能够显示降级后的 UI
+  return {
+    flag: true,
+  };
+}
+
+/**
+ *
+ * @param {*} error 抛出的错误
+ * @param {*} info 带有 componentStack key 的对象，其中包含有关组件引发错误的栈信息
+ *
+ * 做日志的相关操作
+ */
+componentDidCatch(error, info) {
+  // 你同样可以将错误日志上报给服务器
+  console.log('上报错误异常', error, info);
+}
+```
+
+[错误边界（Error Boundaries）](https://zh-hans.reactjs.org/docs/error-boundaries.html)

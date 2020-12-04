@@ -34,8 +34,12 @@ export default class Index extends Component {
   };
 
   render() {
+    const houses = {
+      info: {},
+    };
     return (
       <div>
+        {houses?.info?.id?.asd}
         <SearchContext.Provider value={{ state: this.state, dispatch: this.handleDispatch }}>
           {/* 消费组件，订阅provider属性，来渲染 */}
           <Search />
