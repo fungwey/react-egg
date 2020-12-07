@@ -134,3 +134,7 @@ useContext 和 useReducer 的使用
 #### 3-3 useTitleHook【根据 url 修改页面 title 的自定义 hook】
 
 #### 3-4 useHttpHook【基于 fetch api 封装具有监测功能的自定义 hook】
+
+#### 3-5 使用 think-react-store 实现数据处理【基于 React context 和 hook 的数据流解决方案】
+
+[github 地址](https://github.com/cpagejs/think-react-store)
