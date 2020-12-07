@@ -48,3 +48,7 @@ $ npm stop
 #### 4-9 Egg.js 中 Session 的配置和使用
 
 #### 4-10 Egg.js 中使用 HttpClient 请求其他接口 
+
+### 第5章 Egg.js 高阶--插件中间件扩展等
+
+#### 5-1 中间件，绕不开的洋葱圈模型【实现日志中间件httpLog】
