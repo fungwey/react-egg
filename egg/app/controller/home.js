@@ -7,7 +7,7 @@ class HomeController extends Controller {
     const { ctx } = this;
     const res = await ctx.service.user.detail(10);
     console.log(res);
-    ctx.body = "hi, egg";
+    ctx.body = res;
   }
 
   async demo() {

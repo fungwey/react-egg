@@ -46,3 +46,5 @@ $ npm stop
 #### 4-8 Egg.js 中 Cookie 的配置和使用以及如何设置中文cookie
 
 #### 4-9 Egg.js 中 Session 的配置和使用
+
+#### 4-10 Egg.js 中使用 HttpClient 请求其他接口 
