@@ -29,6 +29,34 @@ class UserController extends Controller {
     const { ctx } = this;
     ctx.body = ctx.params.id;
   }
+
+  async add() {
+    const { ctx } = this;
+    console.log(ctx.request.body);
+
+    const rule = {
+      name: { type: 'string' },
+      age: { type: 'number' },
+    };
+    ctx.validate(rule);
+    ctx.body = {
+      status: 200,
+      data: ctx.request.body,
+    };
+  }
+
+  async edit() {
+    const { ctx } = this;
+
+    ctx.body = ctx.request.body;
+  }
+
+  async del() {
+    const { ctx } = this;
+
+    ctx.body = ctx.request.body.id;
+  }
+
 }
 
 module.exports = UserController;

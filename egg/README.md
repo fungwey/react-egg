@@ -35,4 +35,6 @@ $ npm stop
 
 #### 4-2 Egg.js 中 Controller 的使用和单元测试
 
-#### 5-2 Egg.js 路由中 get 请求的处理方式
+#### 4-3 Egg.js 路由中 get 请求的处理方式
+
+#### 4-4 Egg.js 路由中 post.put.delete等请求的处理及参数校验
