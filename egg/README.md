@@ -32,3 +32,5 @@ $ npm stop
 ### egg
 
 #### 4-1 Egg.js 初体验
+
+#### 4-2 Egg.js 中 Controller 的使用和单元测试
