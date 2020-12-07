@@ -138,3 +138,5 @@ useContext 和 useReducer 的使用
 #### 3-5 使用 think-react-store 实现数据处理【基于 React context 和 hook 的数据流解决方案】
 
 [github 地址](https://github.com/cpagejs/think-react-store)
+
+#### 3-6 Fiber 架构解析
