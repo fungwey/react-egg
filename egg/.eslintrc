@@ -1,0 +1,7 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "quotes": [0,"double"], // 使用双引号
+    "arrow-parens": [2, "always"]  // 箭头函数需要使用括号
+  }
+}
