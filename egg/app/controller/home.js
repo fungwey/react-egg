@@ -5,6 +5,8 @@ const Controller = require("egg").Controller;
 class HomeController extends Controller {
   async index() {
     const { ctx } = this;
+    const res = await ctx.service.user.detail(10);
+    console.log(res);
     ctx.body = "hi, egg";
   }
 

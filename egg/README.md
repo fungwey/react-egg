@@ -38,3 +38,5 @@ $ npm stop
 #### 4-3 Egg.js 路由中 get 请求的处理方式
 
 #### 4-4 Egg.js 路由中 post.put.delete等请求的处理及参数校验
+
+#### 4-5 Egg.js 中 Service 服务和单元测试

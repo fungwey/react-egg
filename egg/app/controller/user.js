@@ -22,6 +22,8 @@ class UserController extends Controller {
 
   async detail() {
     const { ctx } = this;
+    const res = await ctx.service.user.detail(10);
+    console.log(res);
     ctx.body = ctx.query.id;
   }
 
