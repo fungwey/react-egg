@@ -14,4 +14,19 @@ describe("user test", () => {
       .expect(200)
       .expect('[{"id":123}]');
   });
+
+
+  it('user detail', async () => {
+    await app.httpRequest()
+      .get('/user/detail?id=123')
+      .expect(200)
+      .expect('123');
+  });
+
+  it('user detail2', async () => {
+    await app.httpRequest()
+      .get('/user/detail2/100')
+      .expect(200)
+      .expect('100');
+  });
 });
