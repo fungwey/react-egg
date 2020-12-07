@@ -44,3 +44,5 @@ $ npm stop
 #### 4-7 Ejs 模版引擎中静态资源的使用和配置
 
 #### 4-8 Egg.js 中 Cookie 的配置和使用以及如何设置中文cookie
+
+#### 4-9 Egg.js 中 Session 的配置和使用

@@ -41,6 +41,13 @@ module.exports = (appInfo) => {
     dir: path.join(appInfo.baseDir, "app/assets"),
   };
 
+  config.session = {
+    key: "FW_SESS",
+    httpOnly: true,
+    maxAge: 1000 * 50,
+    renew: true, // 过期时间少于一半的时候自动刷新
+  };
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
