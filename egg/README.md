@@ -52,3 +52,13 @@ $ npm stop
 ### 第5章 Egg.js 高阶--插件中间件扩展等
 
 #### 5-1 中间件，绕不开的洋葱圈模型【实现日志中间件httpLog】
+
+#### 5-2 丰富的扩展方式，项目开发得心应手
+
+Application
+Context
+Request
+Response
+Helper
+提取公共逻辑，提升开发效率
+[地址](https://eggjs.org/zh-cn/basics/extend.html)
