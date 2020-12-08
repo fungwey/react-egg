@@ -55,10 +55,9 @@ $ npm stop
 
 #### 5-2 丰富的扩展方式，项目开发得心应手
 
-Application
-Context
-Request
-Response
-Helper
+Application,Context,Request,Response,Helper
 提取公共逻辑，提升开发效率
 [地址](https://eggjs.org/zh-cn/basics/extend.html)
+
+
+#### 5-3 插件机制， Egg.js 灵活应用【实现用户登录验证插件egg-auth】

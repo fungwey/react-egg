@@ -52,6 +52,10 @@ module.exports = (appInfo) => {
     renew: true, // 过期时间少于一半的时候自动刷新
   };
 
+  config.auth = {
+    exclude: [ '/home', '/user', '/login', '/logout' ],
+  };
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
