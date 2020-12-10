@@ -121,3 +121,8 @@ update user set pwd = '123456' where id = 1;
 -- 删除表数据
 delete from user where id = 2;
 ```
+
+#### 6-3 使用egg-mysql插件操作数据库
+
+满足中小型项目需求
+(CRUD 语句)[https://eggjs.org/zh-cn/tutorials/mysql.html#%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99-crud-%E8%AF%AD%E5%8F%A5]
