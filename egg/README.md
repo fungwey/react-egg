@@ -61,3 +61,4 @@ Application,Context,Request,Response,Helper
 
 
 #### 5-3 插件机制， Egg.js 灵活应用【实现用户登录验证插件egg-auth】
+#### 5-4 Egg.js 中的定时任务
