@@ -126,3 +126,7 @@ delete from user where id = 2;
 
 满足中小型项目需求
 (CRUD 语句)[https://eggjs.org/zh-cn/tutorials/mysql.html#%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99-crud-%E8%AF%AD%E5%8F%A5]
+
+#### 6-4 Egg.js 中使用 Sequelize 操作 mysql 数据库
+
+(Sequelize 中文文档)[https://www.sequelize.com.cn/]
