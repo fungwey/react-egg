@@ -61,4 +61,63 @@ Application,Context,Request,Response,Helper
 
 
 #### 5-3 插件机制， Egg.js 灵活应用【实现用户登录验证插件egg-auth】
+
 #### 5-4 Egg.js 中的定时任务
+
+### 第6章 Egg.js 操作 Mysql 数据库
+
+#### 6-1 安装 Mysql 数据库
+
+创建 `egg` 数据库
+`create database egg;`
+
+#### 6-2 Mysql 入门，基础增删改查操作
+
+```sql
+-- 删除数据库
+drop database egg;
+
+-- 创建数据库
+create database egg;
+
+-- 创建表
+use egg;
+-- int(10) 类型
+-- not null 不允许为空
+-- auto_increment 自增
+-- default 默认值
+-- comment 备注
+-- primary key() 设置主键
+-- engine=InnoDB 设置引擎
+-- charset=utf8 字符集
+create table user(
+  id int(10) not null auto_increment,
+  name varchar(20) not null default 'guest' comment '用户名',
+  pwd varchar(50) not null comment '密码',
+  primary key(id)
+)engine=InnoDB charset=utf8;
+
+-- 查看表
+show tables;
+
+-- 查看表结构
+desc user;
+
+-- 删除表
+drop table user;
+
+-- 插入表数据
+insert into user values(1, 'user1', '123');
+insert into user(name, pwd) values('user1', '123');
+
+-- 查询表数据
+select * from user;
+select id, name from user;
+select id, name from user where id = 1;
+
+-- 修改表数据
+update user set pwd = '123456' where id = 1;
+
+-- 删除表数据
+delete from user where id = 2;
+```
