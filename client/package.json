@@ -8,28 +8,30 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
   "lint-staged": {
-    "*.{js,jsx,less,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
     ]
   },
   "dependencies": {
     "@ant-design/pro-layout": "^5.0.12",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.3.1",
+    "core-js": "^3.8.1",
     "dayjs": "^1.9.7",
-    "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
+    "project-libs": "^1.1.4",
+    "rc-form": "^2.4.11",
     "react": "^16.12.0",
+    "react-awesome-swiper": "^1.4.16",
     "react-dom": "^16.12.0",
     "react-icons": "^4.1.0",
+    "think-react-store": "^1.6.6",
     "umi": "^3.3.1",
     "yorkie": "^2.0.0"
+  },
+  "devDependencies": {
+    "lint-staged": "^10.5.3"
   }
 }
