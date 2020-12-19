@@ -119,3 +119,588 @@ hostname: bogon
 2020-12-20 00:06:09,370 INFO 57043 [egg-sequelize](11ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
 2020-12-20 00:06:10,255 INFO 57043 [egg-sequelize](11ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
 2020-12-20 00:06:10,263 INFO 57043 [egg-sequelize](6ms) Executed (default): SELECT `orders`.`id`, `orders`.`order_number`, `orders`.`userId`, `orders`.`houseId`, `orders`.`isPayed`, `orders`.`createTime`, `orders`.`updateTime`, `house`.`id` AS `house.id`, `house`.`name` AS `house.name`, `house`.`info` AS `house.info`, `house`.`addres` AS `house.addres`, `house`.`price` AS `house.price`, `house`.`publishTime` AS `house.publishTime`, `house`.`cityCode` AS `house.cityCode`, `house`.`showCount` AS `house.showCount`, `house`.`startTime` AS `house.startTime`, `house`.`endTime` AS `house.endTime` FROM `orders` AS `orders` LEFT OUTER JOIN `house` AS `house` ON `orders`.`houseId` = `house`.`id` WHERE `orders`.`isPayed` = 0 AND `orders`.`userId` = 22 LIMIT 0, 8;
+2020-12-20 00:11:51,999 INFO 57043 [egg-sequelize](26ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:11:52,010 INFO 57043 [egg-sequelize](6ms) Executed (default): SELECT `orders`.`id`, `orders`.`order_number`, `orders`.`userId`, `orders`.`houseId`, `orders`.`isPayed`, `orders`.`createTime`, `orders`.`updateTime`, `house`.`id` AS `house.id`, `house`.`name` AS `house.name`, `house`.`info` AS `house.info`, `house`.`addres` AS `house.addres`, `house`.`price` AS `house.price`, `house`.`publishTime` AS `house.publishTime`, `house`.`cityCode` AS `house.cityCode`, `house`.`showCount` AS `house.showCount`, `house`.`startTime` AS `house.startTime`, `house`.`endTime` AS `house.endTime` FROM `orders` AS `orders` LEFT OUTER JOIN `house` AS `house` ON `orders`.`houseId` = `house`.`id` WHERE `orders`.`isPayed` = 0 AND `orders`.`userId` = 22 LIMIT 0, 8;
+2020-12-20 00:11:54,415 INFO 57043 [egg-sequelize](7ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:11:54,444 INFO 57043 [egg-sequelize](25ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:11:56,116 INFO 57043 [egg-sequelize](22ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:11:56,173 INFO 57043 [egg-sequelize](31ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:11:57,592 INFO 57043 [egg-sequelize](55ms) Executed (default): UPDATE `user` SET `avatar`=?,`phone`=?,`sign`=?,`updateTime`=? WHERE `username` = ?
+2020-12-20 00:11:58,224 INFO 57043 [egg-sequelize](8ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:11:58,236 INFO 57043 [egg-sequelize](11ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:12:01,082 INFO 57043 [egg-sequelize](23ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:12:01,104 INFO 57043 [egg-sequelize](21ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:12:12,347 INFO 57043 [egg-sequelize](47ms) Executed (default): UPDATE `user` SET `avatar`=?,`phone`=?,`sign`=?,`updateTime`=? WHERE `username` = ?
+2020-12-20 00:12:12,718 INFO 57043 [egg-sequelize](15ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:12:12,728 INFO 57043 [egg-sequelize](7ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:16:12,015 INFO 57043 [egg-sequelize](12ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:16:12,026 INFO 57043 [egg-sequelize](9ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:16:13,157 INFO 57043 [egg-sequelize](49ms) Executed (default): UPDATE `user` SET `avatar`=?,`phone`=?,`sign`=?,`updateTime`=? WHERE `username` = ?
+2020-12-20 00:16:13,393 INFO 57043 [egg-sequelize](6ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:16:13,410 INFO 57043 [egg-sequelize](16ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:16:13,808 INFO 57702 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:16:13,992 INFO 57702 [egg-multipart] stream mode enable
+2020-12-20 00:16:14,007 INFO 57702 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:16:15,520 INFO 57702 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:16:15,824 INFO 57702 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:16:15,827 INFO 57702 [egg-security] use methodnoallow middleware
+2020-12-20 00:16:15,828 INFO 57702 [egg-security] use noopen middleware
+2020-12-20 00:16:15,830 INFO 57702 [egg-security] use nosniff middleware
+2020-12-20 00:16:15,835 INFO 57702 [egg-security] use xssProtection middleware
+2020-12-20 00:16:15,837 INFO 57702 [egg-security] use xframe middleware
+2020-12-20 00:16:15,849 INFO 57702 [egg-security] use dta middleware
+2020-12-20 00:16:15,849 INFO 57702 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:16:15,951 INFO 57702 [egg:core] dump config after load, 11ms
+2020-12-20 00:16:16,710 INFO 57702 [egg-sequelize](18ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:16:16,284 INFO 57702 [egg-redis] client connect success
+2020-12-20 00:16:16,559 INFO 57702 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:16:16,577 INFO 57702 [egg-watcher:application] watcher start success
+2020-12-20 00:16:16,644 INFO 57702 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:16:16 GMT+0800 (中国标准时间)
+2020-12-20 00:16:16,878 INFO 57702 [egg:core] dump config after ready, 83ms
+2020-12-20 00:16:17,995 INFO 57702 [egg-sequelize](32ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:16:18,161 INFO 57702 [egg-sequelize](164ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:16:19,055 INFO 57702 [egg-sequelize](89ms) Executed (default): UPDATE `user` SET `avatar`=?,`phone`=?,`sign`=?,`updateTime`=? WHERE `username` = ?
+2020-12-20 00:16:19,304 INFO 57702 [egg-sequelize](12ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:16:19,313 INFO 57702 [egg-sequelize](7ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:25:45,797 INFO 58055 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:25:45,844 INFO 58055 [egg-multipart] stream mode enable
+2020-12-20 00:25:45,849 INFO 58055 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:25:47,583 INFO 58055 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:25:48,264 INFO 58055 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:25:48,270 INFO 58055 [egg-security] use methodnoallow middleware
+2020-12-20 00:25:48,272 INFO 58055 [egg-security] use noopen middleware
+2020-12-20 00:25:48,279 INFO 58055 [egg-security] use nosniff middleware
+2020-12-20 00:25:48,280 INFO 58055 [egg-security] use xssProtection middleware
+2020-12-20 00:25:48,281 INFO 58055 [egg-security] use xframe middleware
+2020-12-20 00:25:48,282 INFO 58055 [egg-security] use dta middleware
+2020-12-20 00:25:48,282 INFO 58055 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:25:48,316 INFO 58055 [egg:core] dump config after load, 20ms
+2020-12-20 00:25:48,427 INFO 58055 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:25:48,372 INFO 58055 [egg-redis] client connect success
+2020-12-20 00:25:48,397 INFO 58055 [egg-watcher:application] watcher start success
+2020-12-20 00:25:48,406 INFO 58055 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:25:48 GMT+0800 (中国标准时间)
+2020-12-20 00:25:48,422 INFO 58055 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:25:48,446 INFO 58055 [egg:core] dump config after ready, 17ms
+2020-12-20 00:26:07,024 INFO 58097 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:26:06,202 INFO 58097 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:26:06,248 INFO 58097 [egg-multipart] stream mode enable
+2020-12-20 00:26:06,251 INFO 58097 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:26:06,771 INFO 58097 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:26:06,909 INFO 58097 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:26:06,911 INFO 58097 [egg-security] use methodnoallow middleware
+2020-12-20 00:26:06,912 INFO 58097 [egg-security] use noopen middleware
+2020-12-20 00:26:06,912 INFO 58097 [egg-security] use nosniff middleware
+2020-12-20 00:26:06,913 INFO 58097 [egg-security] use xssProtection middleware
+2020-12-20 00:26:06,914 INFO 58097 [egg-security] use xframe middleware
+2020-12-20 00:26:06,915 INFO 58097 [egg-security] use dta middleware
+2020-12-20 00:26:06,915 INFO 58097 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:26:06,933 INFO 58097 [egg:core] dump config after load, 5ms
+2020-12-20 00:26:06,978 INFO 58097 [egg-redis] client connect success
+2020-12-20 00:26:06,982 INFO 58097 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:26:07,004 INFO 58097 [egg-watcher:application] watcher start success
+2020-12-20 00:26:07,019 INFO 58097 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:26:07 GMT+0800 (中国标准时间)
+2020-12-20 00:26:07,047 INFO 58097 [egg:core] dump config after ready, 20ms
+2020-12-20 00:26:09,161 INFO 58106 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:26:08,437 INFO 58106 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:26:08,475 INFO 58106 [egg-multipart] stream mode enable
+2020-12-20 00:26:08,479 INFO 58106 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:26:08,920 INFO 58106 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:26:09,037 INFO 58106 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:26:09,040 INFO 58106 [egg-security] use methodnoallow middleware
+2020-12-20 00:26:09,042 INFO 58106 [egg-security] use noopen middleware
+2020-12-20 00:26:09,043 INFO 58106 [egg-security] use nosniff middleware
+2020-12-20 00:26:09,045 INFO 58106 [egg-security] use xssProtection middleware
+2020-12-20 00:26:09,046 INFO 58106 [egg-security] use xframe middleware
+2020-12-20 00:26:09,046 INFO 58106 [egg-security] use dta middleware
+2020-12-20 00:26:09,046 INFO 58106 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:26:09,061 INFO 58106 [egg:core] dump config after load, 5ms
+2020-12-20 00:26:09,112 INFO 58106 [egg-redis] client connect success
+2020-12-20 00:26:09,117 INFO 58106 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:26:09,141 INFO 58106 [egg-watcher:application] watcher start success
+2020-12-20 00:26:09,146 INFO 58106 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:26:09 GMT+0800 (中国标准时间)
+2020-12-20 00:26:09,171 INFO 58106 [egg:core] dump config after ready, 6ms
+2020-12-20 00:26:15,733 INFO 58118 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:26:15,789 INFO 58118 [egg-multipart] stream mode enable
+2020-12-20 00:26:15,796 INFO 58118 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:26:17,108 INFO 58118 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:26:17,470 INFO 58118 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:26:17,478 INFO 58118 [egg-security] use methodnoallow middleware
+2020-12-20 00:26:17,483 INFO 58118 [egg-security] use noopen middleware
+2020-12-20 00:26:17,484 INFO 58118 [egg-security] use nosniff middleware
+2020-12-20 00:26:17,486 INFO 58118 [egg-security] use xssProtection middleware
+2020-12-20 00:26:17,489 INFO 58118 [egg-security] use xframe middleware
+2020-12-20 00:26:17,493 INFO 58118 [egg-security] use dta middleware
+2020-12-20 00:26:17,493 INFO 58118 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:26:17,518 INFO 58118 [egg:core] dump config after load, 8ms
+2020-12-20 00:26:17,690 INFO 58118 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:26:17,638 INFO 58118 [egg-redis] client connect success
+2020-12-20 00:26:17,648 INFO 58118 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:26:17,664 INFO 58118 [egg-watcher:application] watcher start success
+2020-12-20 00:26:17,681 INFO 58118 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:26:17 GMT+0800 (中国标准时间)
+2020-12-20 00:26:17,719 INFO 58118 [egg:core] dump config after ready, 26ms
+2020-12-20 00:26:21,769 INFO 58129 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:26:21,854 INFO 58129 [egg-multipart] stream mode enable
+2020-12-20 00:26:21,858 INFO 58129 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:26:23,397 INFO 58129 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:26:23,996 INFO 58129 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:26:23,998 INFO 58129 [egg-security] use methodnoallow middleware
+2020-12-20 00:26:23,999 INFO 58129 [egg-security] use noopen middleware
+2020-12-20 00:26:23,999 INFO 58129 [egg-security] use nosniff middleware
+2020-12-20 00:26:24,001 INFO 58129 [egg-security] use xssProtection middleware
+2020-12-20 00:26:24,005 INFO 58129 [egg-security] use xframe middleware
+2020-12-20 00:26:24,006 INFO 58129 [egg-security] use dta middleware
+2020-12-20 00:26:24,006 INFO 58129 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:26:24,028 INFO 58129 [egg:core] dump config after load, 6ms
+2020-12-20 00:26:24,183 INFO 58129 [egg-sequelize](18ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:26:24,078 INFO 58129 [egg-redis] client connect success
+2020-12-20 00:26:24,093 INFO 58129 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:26:24,097 INFO 58129 [egg-watcher:application] watcher start success
+2020-12-20 00:26:24,106 INFO 58129 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:26:24 GMT+0800 (中国标准时间)
+2020-12-20 00:26:24,279 INFO 58129 [egg:core] dump config after ready, 24ms
+2020-12-20 00:27:17,984 INFO 58174 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:27:17,387 INFO 58174 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:27:17,421 INFO 58174 [egg-multipart] stream mode enable
+2020-12-20 00:27:17,424 INFO 58174 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:27:17,791 INFO 58174 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:27:17,892 INFO 58174 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:27:17,894 INFO 58174 [egg-security] use methodnoallow middleware
+2020-12-20 00:27:17,895 INFO 58174 [egg-security] use noopen middleware
+2020-12-20 00:27:17,895 INFO 58174 [egg-security] use nosniff middleware
+2020-12-20 00:27:17,896 INFO 58174 [egg-security] use xssProtection middleware
+2020-12-20 00:27:17,897 INFO 58174 [egg-security] use xframe middleware
+2020-12-20 00:27:17,897 INFO 58174 [egg-security] use dta middleware
+2020-12-20 00:27:17,897 INFO 58174 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:27:17,911 INFO 58174 [egg:core] dump config after load, 6ms
+2020-12-20 00:27:17,946 INFO 58174 [egg-redis] client connect success
+2020-12-20 00:27:17,950 INFO 58174 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:27:17,967 INFO 58174 [egg-watcher:application] watcher start success
+2020-12-20 00:27:17,980 INFO 58174 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:27:17 GMT+0800 (中国标准时间)
+2020-12-20 00:27:17,998 INFO 58174 [egg:core] dump config after ready, 10ms
+2020-12-20 00:27:19,616 INFO 58184 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:27:18,926 INFO 58184 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:27:18,962 INFO 58184 [egg-multipart] stream mode enable
+2020-12-20 00:27:18,965 INFO 58184 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:27:19,440 INFO 58184 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:27:19,533 INFO 58184 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:27:19,535 INFO 58184 [egg-security] use methodnoallow middleware
+2020-12-20 00:27:19,535 INFO 58184 [egg-security] use noopen middleware
+2020-12-20 00:27:19,536 INFO 58184 [egg-security] use nosniff middleware
+2020-12-20 00:27:19,537 INFO 58184 [egg-security] use xssProtection middleware
+2020-12-20 00:27:19,537 INFO 58184 [egg-security] use xframe middleware
+2020-12-20 00:27:19,538 INFO 58184 [egg-security] use dta middleware
+2020-12-20 00:27:19,538 INFO 58184 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:27:19,551 INFO 58184 [egg:core] dump config after load, 5ms
+2020-12-20 00:27:19,584 INFO 58184 [egg-redis] client connect success
+2020-12-20 00:27:19,588 INFO 58184 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:27:19,602 INFO 58184 [egg-watcher:application] watcher start success
+2020-12-20 00:27:19,606 INFO 58184 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:27:19 GMT+0800 (中国标准时间)
+2020-12-20 00:27:19,625 INFO 58184 [egg:core] dump config after ready, 6ms
+2020-12-20 00:27:53,827 INFO 58254 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:27:53,931 INFO 58254 [egg-multipart] stream mode enable
+2020-12-20 00:27:53,941 INFO 58254 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:27:58,117 INFO 58254 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:27:58,704 INFO 58254 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:27:58,714 INFO 58254 [egg-security] use methodnoallow middleware
+2020-12-20 00:27:58,715 INFO 58254 [egg-security] use noopen middleware
+2020-12-20 00:27:58,718 INFO 58254 [egg-security] use nosniff middleware
+2020-12-20 00:27:58,729 INFO 58254 [egg-security] use xssProtection middleware
+2020-12-20 00:27:58,733 INFO 58254 [egg-security] use xframe middleware
+2020-12-20 00:27:58,734 INFO 58254 [egg-security] use dta middleware
+2020-12-20 00:27:58,734 INFO 58254 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:27:58,794 INFO 58254 [egg:core] dump config after load, 36ms
+2020-12-20 00:27:59,027 INFO 58254 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:27:58,881 INFO 58254 [egg-redis] client connect success
+2020-12-20 00:27:58,888 INFO 58254 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:27:58,967 INFO 58254 [egg-watcher:application] watcher start success
+2020-12-20 00:27:59,020 INFO 58254 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:27:58 GMT+0800 (中国标准时间)
+2020-12-20 00:27:59,076 INFO 58254 [egg:core] dump config after ready, 26ms
+2020-12-20 00:28:05,860 INFO 58254 [egg-sequelize](17ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:28:05,871 INFO 58254 [egg-sequelize](5ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:29:24,406 INFO 58254 [egg-sequelize](9ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:29:24,419 INFO 58254 [egg-sequelize](11ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:30:38,851 INFO 58447 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:30:38,883 INFO 58447 [egg-multipart] stream mode enable
+2020-12-20 00:30:38,887 INFO 58447 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:30:39,472 INFO 58447 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:30:40,317 INFO 58447 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:30:40,325 INFO 58447 [egg-security] use methodnoallow middleware
+2020-12-20 00:30:40,326 INFO 58447 [egg-security] use noopen middleware
+2020-12-20 00:30:40,331 INFO 58447 [egg-security] use nosniff middleware
+2020-12-20 00:30:40,333 INFO 58447 [egg-security] use xssProtection middleware
+2020-12-20 00:30:40,334 INFO 58447 [egg-security] use xframe middleware
+2020-12-20 00:30:40,335 INFO 58447 [egg-security] use dta middleware
+2020-12-20 00:30:40,335 INFO 58447 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:30:40,403 INFO 58447 [egg:core] dump config after load, 36ms
+2020-12-20 00:30:40,536 INFO 58447 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:30:40,487 INFO 58447 [egg-redis] client connect success
+2020-12-20 00:30:40,516 INFO 58447 [egg-watcher:application] watcher start success
+2020-12-20 00:30:40,529 INFO 58447 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:30:40 GMT+0800 (中国标准时间)
+2020-12-20 00:30:40,530 INFO 58447 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:30:40,554 INFO 58447 [egg:core] dump config after ready, 10ms
+2020-12-20 00:31:54,460 INFO 58503 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:31:54,495 INFO 58503 [egg-multipart] stream mode enable
+2020-12-20 00:31:54,503 INFO 58503 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:31:55,087 INFO 58503 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:31:55,475 INFO 58503 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:31:55,479 INFO 58503 [egg-security] use methodnoallow middleware
+2020-12-20 00:31:55,481 INFO 58503 [egg-security] use noopen middleware
+2020-12-20 00:31:55,482 INFO 58503 [egg-security] use nosniff middleware
+2020-12-20 00:31:55,484 INFO 58503 [egg-security] use xssProtection middleware
+2020-12-20 00:31:55,485 INFO 58503 [egg-security] use xframe middleware
+2020-12-20 00:31:55,486 INFO 58503 [egg-security] use dta middleware
+2020-12-20 00:31:55,486 INFO 58503 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:31:55,556 INFO 58503 [egg:core] dump config after load, 48ms
+2020-12-20 00:31:55,803 INFO 58503 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:31:55,718 INFO 58503 [egg-redis] client connect success
+2020-12-20 00:31:55,787 INFO 58503 [egg-watcher:application] watcher start success
+2020-12-20 00:31:55,799 INFO 58503 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:31:55 GMT+0800 (中国标准时间)
+2020-12-20 00:31:55,863 INFO 58503 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:31:55,878 INFO 58503 [egg:core] dump config after ready, 10ms
+2020-12-20 00:33:08,637 INFO 58626 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:33:07,809 INFO 58626 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:33:07,853 INFO 58626 [egg-multipart] stream mode enable
+2020-12-20 00:33:07,860 INFO 58626 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:33:08,327 INFO 58626 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:33:08,518 INFO 58626 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:33:08,521 INFO 58626 [egg-security] use methodnoallow middleware
+2020-12-20 00:33:08,522 INFO 58626 [egg-security] use noopen middleware
+2020-12-20 00:33:08,524 INFO 58626 [egg-security] use nosniff middleware
+2020-12-20 00:33:08,526 INFO 58626 [egg-security] use xssProtection middleware
+2020-12-20 00:33:08,527 INFO 58626 [egg-security] use xframe middleware
+2020-12-20 00:33:08,528 INFO 58626 [egg-security] use dta middleware
+2020-12-20 00:33:08,528 INFO 58626 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:33:08,550 INFO 58626 [egg:core] dump config after load, 9ms
+2020-12-20 00:33:08,598 INFO 58626 [egg-redis] client connect success
+2020-12-20 00:33:08,602 INFO 58626 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:33:08,618 INFO 58626 [egg-watcher:application] watcher start success
+2020-12-20 00:33:08,632 INFO 58626 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:33:08 GMT+0800 (中国标准时间)
+2020-12-20 00:33:08,649 INFO 58626 [egg:core] dump config after ready, 6ms
+2020-12-20 00:33:14,385 INFO 58626 [egg-sequelize](11ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:33:14,406 INFO 58626 [egg-sequelize](11ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:34:04,280 INFO 58626 [egg-sequelize](12ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:34:04,306 INFO 58626 [egg-sequelize](23ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:35:11,298 INFO 58626 [egg-sequelize](4ms) Executed (default): SELECT `house`.`id`, `house`.`name`, `house`.`info`, `house`.`addres`, `house`.`price`, `house`.`cityCode`, `house`.`showCount` FROM `house` AS `house` ORDER BY `house`.`showCount` DESC LIMIT 4;
+2020-12-20 00:35:11,360 INFO 58626 [egg-sequelize](20ms) Executed (default): SELECT `imgs`.* FROM (SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 1 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 2 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 3 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 4 LIMIT 1) AS sub) AS `imgs`;
+2020-12-20 00:43:43,848 INFO 59032 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:43:43,916 INFO 59032 [egg-multipart] stream mode enable
+2020-12-20 00:43:43,924 INFO 59032 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:43:44,651 INFO 59032 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:43:44,810 INFO 59032 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:43:44,814 INFO 59032 [egg-security] use methodnoallow middleware
+2020-12-20 00:43:44,816 INFO 59032 [egg-security] use noopen middleware
+2020-12-20 00:43:44,818 INFO 59032 [egg-security] use nosniff middleware
+2020-12-20 00:43:44,818 INFO 59032 [egg-security] use xssProtection middleware
+2020-12-20 00:43:44,819 INFO 59032 [egg-security] use xframe middleware
+2020-12-20 00:43:44,820 INFO 59032 [egg-security] use dta middleware
+2020-12-20 00:43:44,820 INFO 59032 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:43:44,838 INFO 59032 [egg:core] dump config after load, 5ms
+2020-12-20 00:43:44,889 INFO 59032 [egg-redis] client connect success
+2020-12-20 00:43:45,074 INFO 59032 [egg-watcher:application] watcher start success
+2020-12-20 00:43:45,082 INFO 59032 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:43:45 GMT+0800 (中国标准时间)
+2020-12-20 00:43:45,179 INFO 59032 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:43:45,193 INFO 59032 [egg:core] dump config after ready, 8ms
+2020-12-20 00:43:45,113 INFO 59032 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:48:45,910 INFO 59416 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:48:45,982 INFO 59416 [egg-multipart] stream mode enable
+2020-12-20 00:48:45,994 INFO 59416 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:48:46,679 INFO 59416 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:48:46,828 INFO 59416 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:48:46,832 INFO 59416 [egg-security] use methodnoallow middleware
+2020-12-20 00:48:46,834 INFO 59416 [egg-security] use noopen middleware
+2020-12-20 00:48:46,835 INFO 59416 [egg-security] use nosniff middleware
+2020-12-20 00:48:46,836 INFO 59416 [egg-security] use xssProtection middleware
+2020-12-20 00:48:46,837 INFO 59416 [egg-security] use xframe middleware
+2020-12-20 00:48:46,837 INFO 59416 [egg-security] use dta middleware
+2020-12-20 00:48:46,837 INFO 59416 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:48:46,857 INFO 59416 [egg:core] dump config after load, 6ms
+2020-12-20 00:48:46,893 INFO 59416 [egg-redis] client connect success
+2020-12-20 00:48:46,897 INFO 59416 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:48:46,927 INFO 59416 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:48:46,914 INFO 59416 [egg-watcher:application] watcher start success
+2020-12-20 00:48:46,923 INFO 59416 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:48:46 GMT+0800 (中国标准时间)
+2020-12-20 00:48:46,937 INFO 59416 [egg:core] dump config after ready, 7ms
+2020-12-20 00:53:07,630 INFO 59568 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:53:06,746 INFO 59568 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:53:06,779 INFO 59568 [egg-multipart] stream mode enable
+2020-12-20 00:53:06,784 INFO 59568 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:53:07,303 INFO 59568 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:53:07,522 INFO 59568 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:53:07,525 INFO 59568 [egg-security] use methodnoallow middleware
+2020-12-20 00:53:07,526 INFO 59568 [egg-security] use noopen middleware
+2020-12-20 00:53:07,527 INFO 59568 [egg-security] use nosniff middleware
+2020-12-20 00:53:07,528 INFO 59568 [egg-security] use xssProtection middleware
+2020-12-20 00:53:07,529 INFO 59568 [egg-security] use xframe middleware
+2020-12-20 00:53:07,530 INFO 59568 [egg-security] use dta middleware
+2020-12-20 00:53:07,530 INFO 59568 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:53:07,556 INFO 59568 [egg:core] dump config after load, 7ms
+2020-12-20 00:53:07,593 INFO 59568 [egg-redis] client connect success
+2020-12-20 00:53:07,597 INFO 59568 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:53:07,617 INFO 59568 [egg-watcher:application] watcher start success
+2020-12-20 00:53:07,627 INFO 59568 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:53:07 GMT+0800 (中国标准时间)
+2020-12-20 00:53:07,643 INFO 59568 [egg:core] dump config after ready, 9ms
+2020-12-20 00:53:20,927 INFO 59568 [egg-sequelize](8ms) Executed (default): SELECT `house`.`id`, `house`.`name`, `house`.`info`, `house`.`addres`, `house`.`price`, `house`.`cityCode`, `house`.`showCount` FROM `house` AS `house` ORDER BY `house`.`showCount` DESC LIMIT 4;
+2020-12-20 00:53:20,967 INFO 59568 [egg-sequelize](20ms) Executed (default): SELECT `imgs`.* FROM (SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 1 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 2 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 3 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 4 LIMIT 1) AS sub) AS `imgs`;
+2020-12-20 00:53:24,565 INFO 59568 [egg-sequelize](5ms) Executed (default): SELECT `house`.`id`, `house`.`name`, `house`.`info`, `house`.`addres`, `house`.`price`, `house`.`cityCode`, `house`.`showCount` FROM `house` AS `house` ORDER BY `house`.`showCount` DESC LIMIT 4;
+2020-12-20 00:53:24,570 INFO 59568 [egg-sequelize](2ms) Executed (default): SELECT `imgs`.* FROM (SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 1 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 2 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 3 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 4 LIMIT 1) AS sub) AS `imgs`;
+2020-12-20 00:53:26,506 INFO 59568 [egg-sequelize](2ms) Executed (default): SELECT `house`.`id`, `house`.`name`, `house`.`info`, `house`.`addres`, `house`.`price`, `house`.`cityCode`, `house`.`showCount` FROM `house` AS `house` ORDER BY `house`.`showCount` DESC LIMIT 4;
+2020-12-20 00:53:26,512 INFO 59568 [egg-sequelize](4ms) Executed (default): SELECT `imgs`.* FROM (SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 1 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 2 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 3 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 4 LIMIT 1) AS sub) AS `imgs`;
+2020-12-20 00:53:30,319 INFO 59568 [egg-sequelize](4ms) Executed (default): SELECT `house`.`id`, `house`.`name`, `house`.`info`, `house`.`addres`, `house`.`price`, `house`.`cityCode`, `house`.`showCount` FROM `house` AS `house` ORDER BY `house`.`showCount` DESC LIMIT 4;
+2020-12-20 00:53:30,324 INFO 59568 [egg-sequelize](2ms) Executed (default): SELECT `imgs`.* FROM (SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 1 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 2 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 3 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 4 LIMIT 1) AS sub) AS `imgs`;
+2020-12-20 00:53:37,493 INFO 59568 [egg-sequelize](2ms) Executed (default): SELECT `house`.`id`, `house`.`name`, `house`.`info`, `house`.`addres`, `house`.`price`, `house`.`cityCode`, `house`.`showCount` FROM `house` AS `house` ORDER BY `house`.`showCount` DESC LIMIT 4;
+2020-12-20 00:53:37,497 INFO 59568 [egg-sequelize](3ms) Executed (default): SELECT `imgs`.* FROM (SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 1 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 2 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 3 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 4 LIMIT 1) AS sub) AS `imgs`;
+2020-12-20 00:53:49,047 INFO 59656 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:53:48,379 INFO 59656 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:53:48,407 INFO 59656 [egg-multipart] stream mode enable
+2020-12-20 00:53:48,412 INFO 59656 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:53:48,799 INFO 59656 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:53:48,938 INFO 59656 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:53:48,941 INFO 59656 [egg-security] use methodnoallow middleware
+2020-12-20 00:53:48,942 INFO 59656 [egg-security] use noopen middleware
+2020-12-20 00:53:48,943 INFO 59656 [egg-security] use nosniff middleware
+2020-12-20 00:53:48,944 INFO 59656 [egg-security] use xssProtection middleware
+2020-12-20 00:53:48,945 INFO 59656 [egg-security] use xframe middleware
+2020-12-20 00:53:48,945 INFO 59656 [egg-security] use dta middleware
+2020-12-20 00:53:48,945 INFO 59656 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:53:48,962 INFO 59656 [egg:core] dump config after load, 5ms
+2020-12-20 00:53:49,004 INFO 59656 [egg-redis] client connect success
+2020-12-20 00:53:49,024 INFO 59656 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:53:49,028 INFO 59656 [egg-watcher:application] watcher start success
+2020-12-20 00:53:49,034 INFO 59656 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:53:49 GMT+0800 (中国标准时间)
+2020-12-20 00:53:49,058 INFO 59656 [egg:core] dump config after ready, 7ms
+2020-12-20 00:53:55,392 INFO 59656 [egg-sequelize](13ms) Executed (default): SELECT `house`.`id`, `house`.`name`, `house`.`info`, `house`.`addres`, `house`.`price`, `house`.`cityCode`, `house`.`showCount` FROM `house` AS `house` ORDER BY `house`.`showCount` DESC LIMIT 4;
+2020-12-20 00:53:55,405 INFO 59656 [egg-sequelize](6ms) Executed (default): SELECT `imgs`.* FROM (SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 1 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 2 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 3 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 4 LIMIT 1) AS sub) AS `imgs`;
+2020-12-20 00:53:58,532 INFO 59656 [egg-sequelize](4ms) Executed (default): SELECT `house`.`id`, `house`.`name`, `house`.`info`, `house`.`addres`, `house`.`price`, `house`.`cityCode`, `house`.`showCount` FROM `house` AS `house` ORDER BY `house`.`showCount` DESC LIMIT 4;
+2020-12-20 00:53:58,540 INFO 59656 [egg-sequelize](4ms) Executed (default): SELECT `imgs`.* FROM (SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 1 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 2 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 3 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 4 LIMIT 1) AS sub) AS `imgs`;
+2020-12-20 00:54:01,522 INFO 59656 [egg-sequelize](2ms) Executed (default): SELECT `house`.`id`, `house`.`name`, `house`.`info`, `house`.`addres`, `house`.`price`, `house`.`cityCode`, `house`.`showCount` FROM `house` AS `house` ORDER BY `house`.`showCount` DESC LIMIT 4;
+2020-12-20 00:54:01,528 INFO 59656 [egg-sequelize](2ms) Executed (default): SELECT `imgs`.* FROM (SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 1 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 2 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 3 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 4 LIMIT 1) AS sub) AS `imgs`;
+2020-12-20 00:54:05,301 INFO 59656 [egg-sequelize](2ms) Executed (default): SELECT `house`.`id`, `house`.`name`, `house`.`info`, `house`.`addres`, `house`.`price`, `house`.`cityCode`, `house`.`showCount` FROM `house` AS `house` ORDER BY `house`.`showCount` DESC LIMIT 4;
+2020-12-20 00:54:05,304 INFO 59656 [egg-sequelize](1ms) Executed (default): SELECT `imgs`.* FROM (SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 1 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 2 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 3 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 4 LIMIT 1) AS sub) AS `imgs`;
+2020-12-20 00:54:44,541 INFO 59772 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:54:43,765 INFO 59772 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:54:43,801 INFO 59772 [egg-multipart] stream mode enable
+2020-12-20 00:54:43,805 INFO 59772 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:54:44,234 INFO 59772 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:54:44,426 INFO 59772 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:54:44,428 INFO 59772 [egg-security] use methodnoallow middleware
+2020-12-20 00:54:44,429 INFO 59772 [egg-security] use noopen middleware
+2020-12-20 00:54:44,430 INFO 59772 [egg-security] use nosniff middleware
+2020-12-20 00:54:44,431 INFO 59772 [egg-security] use xssProtection middleware
+2020-12-20 00:54:44,432 INFO 59772 [egg-security] use xframe middleware
+2020-12-20 00:54:44,433 INFO 59772 [egg-security] use dta middleware
+2020-12-20 00:54:44,433 INFO 59772 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:54:44,453 INFO 59772 [egg:core] dump config after load, 5ms
+2020-12-20 00:54:44,497 INFO 59772 [egg-redis] client connect success
+2020-12-20 00:54:44,507 INFO 59772 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:54:44,524 INFO 59772 [egg-watcher:application] watcher start success
+2020-12-20 00:54:44,534 INFO 59772 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:54:44 GMT+0800 (中国标准时间)
+2020-12-20 00:54:44,556 INFO 59772 [egg:core] dump config after ready, 10ms
+2020-12-20 00:54:49,393 INFO 59772 [egg-sequelize](16ms) Executed (default): SELECT `house`.`id`, `house`.`name`, `house`.`info`, `house`.`addres`, `house`.`price`, `house`.`cityCode`, `house`.`showCount` FROM `house` AS `house` ORDER BY `house`.`showCount` DESC LIMIT 4;
+2020-12-20 00:54:49,609 INFO 59772 [egg-sequelize](206ms) Executed (default): SELECT `imgs`.* FROM (SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 1 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 2 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 3 LIMIT 1) AS sub UNION ALL SELECT * FROM (SELECT `id`, `url`, `houseId` FROM `imgs` AS `imgs` WHERE `imgs`.`houseId` = 4 LIMIT 1) AS sub) AS `imgs`;
+2020-12-20 00:54:53,693 INFO 59772 [egg-sequelize](16ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:54:53,902 INFO 59772 [egg-sequelize](238ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 00:54:53,936 INFO 59772 [egg-sequelize](84ms) Executed (default): SELECT `comment`.`id`, `comment`.`userId`, `comment`.`houseId`, `comment`.`msg`, `comment`.`createTime`, `user`.`id` AS `user.id`, `user`.`avatar` AS `user.avatar`, `user`.`username` AS `user.username` FROM `comment` AS `comment` LEFT OUTER JOIN `user` AS `user` ON `comment`.`userId` = `user`.`id` WHERE `comment`.`houseId` = 2 AND `comment`.`userId` = 22 LIMIT 0, 8;
+2020-12-20 00:54:54,013 INFO 59772 [egg-sequelize](94ms) Executed (default): SELECT `id`, `order_number`, `userId`, `houseId`, `isPayed`, `createTime`, `updateTime` FROM `orders` AS `orders` WHERE `orders`.`userId` = 22 AND `orders`.`houseId` = 2 LIMIT 1;
+2020-12-20 00:55:07,559 INFO 59804 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 00:55:06,562 INFO 59804 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 00:55:06,608 INFO 59804 [egg-multipart] stream mode enable
+2020-12-20 00:55:06,613 INFO 59804 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 00:55:07,263 INFO 59804 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 00:55:07,437 INFO 59804 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 00:55:07,440 INFO 59804 [egg-security] use methodnoallow middleware
+2020-12-20 00:55:07,441 INFO 59804 [egg-security] use noopen middleware
+2020-12-20 00:55:07,442 INFO 59804 [egg-security] use nosniff middleware
+2020-12-20 00:55:07,443 INFO 59804 [egg-security] use xssProtection middleware
+2020-12-20 00:55:07,444 INFO 59804 [egg-security] use xframe middleware
+2020-12-20 00:55:07,445 INFO 59804 [egg-security] use dta middleware
+2020-12-20 00:55:07,445 INFO 59804 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 00:55:07,470 INFO 59804 [egg:core] dump config after load, 9ms
+2020-12-20 00:55:07,508 INFO 59804 [egg-redis] client connect success
+2020-12-20 00:55:07,514 INFO 59804 [egg-redis] instance[0] status OK, client ready
+2020-12-20 00:55:07,538 INFO 59804 [egg-watcher:application] watcher start success
+2020-12-20 00:55:07,554 INFO 59804 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 00:55:07 GMT+0800 (中国标准时间)
+2020-12-20 00:55:07,571 INFO 59804 [egg:core] dump config after ready, 6ms
+2020-12-20 01:00:50,944 INFO 60083 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 01:00:51,116 INFO 60083 [egg-multipart] stream mode enable
+2020-12-20 01:00:51,132 INFO 60083 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 01:00:51,720 INFO 60083 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 01:00:51,892 INFO 60083 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 01:00:51,894 INFO 60083 [egg-security] use methodnoallow middleware
+2020-12-20 01:00:51,895 INFO 60083 [egg-security] use noopen middleware
+2020-12-20 01:00:51,897 INFO 60083 [egg-security] use nosniff middleware
+2020-12-20 01:00:51,897 INFO 60083 [egg-security] use xssProtection middleware
+2020-12-20 01:00:51,898 INFO 60083 [egg-security] use xframe middleware
+2020-12-20 01:00:51,899 INFO 60083 [egg-security] use dta middleware
+2020-12-20 01:00:51,899 INFO 60083 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 01:00:51,920 INFO 60083 [egg:core] dump config after load, 7ms
+2020-12-20 01:00:52,166 INFO 60083 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 01:00:51,969 INFO 60083 [egg-redis] client connect success
+2020-12-20 01:00:51,975 INFO 60083 [egg-redis] instance[0] status OK, client ready
+2020-12-20 01:00:52,147 INFO 60083 [egg-watcher:application] watcher start success
+2020-12-20 01:00:52,158 INFO 60083 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 01:00:52 GMT+0800 (中国标准时间)
+2020-12-20 01:00:52,176 INFO 60083 [egg:core] dump config after ready, 7ms
+2020-12-20 01:00:55,874 INFO 60111 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 01:00:55,258 INFO 60111 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 01:00:55,288 INFO 60111 [egg-multipart] stream mode enable
+2020-12-20 01:00:55,291 INFO 60111 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 01:00:55,646 INFO 60111 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 01:00:55,760 INFO 60111 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 01:00:55,762 INFO 60111 [egg-security] use methodnoallow middleware
+2020-12-20 01:00:55,762 INFO 60111 [egg-security] use noopen middleware
+2020-12-20 01:00:55,763 INFO 60111 [egg-security] use nosniff middleware
+2020-12-20 01:00:55,763 INFO 60111 [egg-security] use xssProtection middleware
+2020-12-20 01:00:55,764 INFO 60111 [egg-security] use xframe middleware
+2020-12-20 01:00:55,764 INFO 60111 [egg-security] use dta middleware
+2020-12-20 01:00:55,764 INFO 60111 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 01:00:55,778 INFO 60111 [egg:core] dump config after load, 5ms
+2020-12-20 01:00:55,826 INFO 60111 [egg-redis] client connect success
+2020-12-20 01:00:55,829 INFO 60111 [egg-redis] instance[0] status OK, client ready
+2020-12-20 01:00:55,852 INFO 60111 [egg-watcher:application] watcher start success
+2020-12-20 01:00:55,868 INFO 60111 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 01:00:55 GMT+0800 (中国标准时间)
+2020-12-20 01:00:55,889 INFO 60111 [egg:core] dump config after ready, 8ms
+2020-12-20 01:00:59,964 INFO 60112 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 01:01:00,043 INFO 60112 [egg-multipart] stream mode enable
+2020-12-20 01:01:00,047 INFO 60112 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 01:01:01,263 INFO 60112 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 01:01:01,536 INFO 60112 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 01:01:01,539 INFO 60112 [egg-security] use methodnoallow middleware
+2020-12-20 01:01:01,540 INFO 60112 [egg-security] use noopen middleware
+2020-12-20 01:01:01,540 INFO 60112 [egg-security] use nosniff middleware
+2020-12-20 01:01:01,541 INFO 60112 [egg-security] use xssProtection middleware
+2020-12-20 01:01:01,541 INFO 60112 [egg-security] use xframe middleware
+2020-12-20 01:01:01,542 INFO 60112 [egg-security] use dta middleware
+2020-12-20 01:01:01,542 INFO 60112 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 01:01:01,576 INFO 60112 [egg:core] dump config after load, 18ms
+2020-12-20 01:01:01,686 INFO 60112 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 01:01:01,643 INFO 60112 [egg-redis] client connect success
+2020-12-20 01:01:01,647 INFO 60112 [egg-redis] instance[0] status OK, client ready
+2020-12-20 01:01:01,664 INFO 60112 [egg-watcher:application] watcher start success
+2020-12-20 01:01:01,668 INFO 60112 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 01:01:01 GMT+0800 (中国标准时间)
+2020-12-20 01:01:01,697 INFO 60112 [egg:core] dump config after ready, 6ms
+2020-12-20 01:02:29,285 INFO 60175 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 01:02:29,394 INFO 60175 [egg-multipart] stream mode enable
+2020-12-20 01:02:29,406 INFO 60175 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 01:02:30,813 INFO 60175 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 01:02:31,077 INFO 60175 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 01:02:31,080 INFO 60175 [egg-security] use methodnoallow middleware
+2020-12-20 01:02:31,081 INFO 60175 [egg-security] use noopen middleware
+2020-12-20 01:02:31,082 INFO 60175 [egg-security] use nosniff middleware
+2020-12-20 01:02:31,083 INFO 60175 [egg-security] use xssProtection middleware
+2020-12-20 01:02:31,083 INFO 60175 [egg-security] use xframe middleware
+2020-12-20 01:02:31,084 INFO 60175 [egg-security] use dta middleware
+2020-12-20 01:02:31,084 INFO 60175 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 01:02:31,109 INFO 60175 [egg:core] dump config after load, 5ms
+2020-12-20 01:02:31,313 INFO 60175 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 01:02:31,189 INFO 60175 [egg-redis] client connect success
+2020-12-20 01:02:31,195 INFO 60175 [egg-watcher:application] watcher start success
+2020-12-20 01:02:31,281 INFO 60175 [egg-redis] instance[0] status OK, client ready
+2020-12-20 01:02:31,300 INFO 60175 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 01:02:31 GMT+0800 (中国标准时间)
+2020-12-20 01:02:31,342 INFO 60175 [egg:core] dump config after ready, 25ms
+2020-12-20 01:03:53,773 INFO 60288 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 01:03:53,880 INFO 60288 [egg-multipart] stream mode enable
+2020-12-20 01:03:53,912 INFO 60288 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 01:03:55,068 INFO 60288 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 01:03:56,026 INFO 60288 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 01:03:56,034 INFO 60288 [egg-security] use methodnoallow middleware
+2020-12-20 01:03:56,035 INFO 60288 [egg-security] use noopen middleware
+2020-12-20 01:03:56,036 INFO 60288 [egg-security] use nosniff middleware
+2020-12-20 01:03:56,037 INFO 60288 [egg-security] use xssProtection middleware
+2020-12-20 01:03:56,038 INFO 60288 [egg-security] use xframe middleware
+2020-12-20 01:03:56,039 INFO 60288 [egg-security] use dta middleware
+2020-12-20 01:03:56,039 INFO 60288 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 01:03:56,072 INFO 60288 [egg:core] dump config after load, 11ms
+2020-12-20 01:03:56,422 INFO 60288 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 01:03:56,217 INFO 60288 [egg-redis] client connect success
+2020-12-20 01:03:56,224 INFO 60288 [egg-redis] instance[0] status OK, client ready
+2020-12-20 01:03:56,330 INFO 60288 [egg-watcher:application] watcher start success
+2020-12-20 01:03:56,404 INFO 60288 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 01:03:56 GMT+0800 (中国标准时间)
+2020-12-20 01:03:56,521 INFO 60288 [egg:core] dump config after ready, 35ms
+2020-12-20 01:04:02,956 INFO 60288 [egg-sequelize](18ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:04:02,981 INFO 60288 [egg-sequelize](7ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:04:50,939 INFO 60288 [egg-sequelize](9ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:04:50,948 INFO 60288 [egg-sequelize](8ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:05:53,313 INFO 60496 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 01:05:52,658 INFO 60496 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 01:05:52,693 INFO 60496 [egg-multipart] stream mode enable
+2020-12-20 01:05:52,698 INFO 60496 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 01:05:53,060 INFO 60496 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 01:05:53,208 INFO 60496 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 01:05:53,210 INFO 60496 [egg-security] use methodnoallow middleware
+2020-12-20 01:05:53,211 INFO 60496 [egg-security] use noopen middleware
+2020-12-20 01:05:53,212 INFO 60496 [egg-security] use nosniff middleware
+2020-12-20 01:05:53,213 INFO 60496 [egg-security] use xssProtection middleware
+2020-12-20 01:05:53,214 INFO 60496 [egg-security] use xframe middleware
+2020-12-20 01:05:53,214 INFO 60496 [egg-security] use dta middleware
+2020-12-20 01:05:53,214 INFO 60496 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 01:05:53,232 INFO 60496 [egg:core] dump config after load, 6ms
+2020-12-20 01:05:53,270 INFO 60496 [egg-redis] client connect success
+2020-12-20 01:05:53,290 INFO 60496 [egg-redis] instance[0] status OK, client ready
+2020-12-20 01:05:53,295 INFO 60496 [egg-watcher:application] watcher start success
+2020-12-20 01:05:53,300 INFO 60496 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 01:05:53 GMT+0800 (中国标准时间)
+2020-12-20 01:05:53,324 INFO 60496 [egg:core] dump config after ready, 7ms
+2020-12-20 01:05:58,949 INFO 60496 [egg-sequelize](22ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:05:58,980 INFO 60496 [egg-sequelize](10ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:06:49,975 INFO 60598 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 01:06:49,207 INFO 60598 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 01:06:49,242 INFO 60598 [egg-multipart] stream mode enable
+2020-12-20 01:06:49,248 INFO 60598 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 01:06:49,727 INFO 60598 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 01:06:49,877 INFO 60598 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 01:06:49,881 INFO 60598 [egg-security] use methodnoallow middleware
+2020-12-20 01:06:49,882 INFO 60598 [egg-security] use noopen middleware
+2020-12-20 01:06:49,883 INFO 60598 [egg-security] use nosniff middleware
+2020-12-20 01:06:49,884 INFO 60598 [egg-security] use xssProtection middleware
+2020-12-20 01:06:49,885 INFO 60598 [egg-security] use xframe middleware
+2020-12-20 01:06:49,885 INFO 60598 [egg-security] use dta middleware
+2020-12-20 01:06:49,885 INFO 60598 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 01:06:49,905 INFO 60598 [egg:core] dump config after load, 6ms
+2020-12-20 01:06:49,941 INFO 60598 [egg-redis] client connect success
+2020-12-20 01:06:49,945 INFO 60598 [egg-redis] instance[0] status OK, client ready
+2020-12-20 01:06:49,962 INFO 60598 [egg-watcher:application] watcher start success
+2020-12-20 01:06:49,971 INFO 60598 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 01:06:49 GMT+0800 (中国标准时间)
+2020-12-20 01:06:49,985 INFO 60598 [egg:core] dump config after ready, 7ms
+2020-12-20 01:06:58,475 INFO 60598 [egg-sequelize](11ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:06:58,485 INFO 60598 [egg-sequelize](6ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:07:38,054 INFO 60696 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 01:07:37,418 INFO 60696 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 01:07:37,449 INFO 60696 [egg-multipart] stream mode enable
+2020-12-20 01:07:37,455 INFO 60696 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 01:07:37,808 INFO 60696 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 01:07:37,962 INFO 60696 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 01:07:37,965 INFO 60696 [egg-security] use methodnoallow middleware
+2020-12-20 01:07:37,966 INFO 60696 [egg-security] use noopen middleware
+2020-12-20 01:07:37,967 INFO 60696 [egg-security] use nosniff middleware
+2020-12-20 01:07:37,967 INFO 60696 [egg-security] use xssProtection middleware
+2020-12-20 01:07:37,968 INFO 60696 [egg-security] use xframe middleware
+2020-12-20 01:07:37,969 INFO 60696 [egg-security] use dta middleware
+2020-12-20 01:07:37,969 INFO 60696 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 01:07:37,985 INFO 60696 [egg:core] dump config after load, 5ms
+2020-12-20 01:07:38,020 INFO 60696 [egg-redis] client connect success
+2020-12-20 01:07:38,024 INFO 60696 [egg-redis] instance[0] status OK, client ready
+2020-12-20 01:07:38,039 INFO 60696 [egg-watcher:application] watcher start success
+2020-12-20 01:07:38,049 INFO 60696 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 01:07:38 GMT+0800 (中国标准时间)
+2020-12-20 01:07:38,065 INFO 60696 [egg:core] dump config after ready, 7ms
+2020-12-20 01:07:41,080 INFO 60696 [egg-sequelize](17ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:07:41,173 INFO 60696 [egg-sequelize](64ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:08:14,119 INFO 60797 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-20 01:08:13,365 INFO 60797 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/server/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-20 01:08:13,403 INFO 60797 [egg-multipart] stream mode enable
+2020-12-20 01:08:13,409 INFO 60797 [egg-mysql] connecting fengwei@localhost:3306/egg
+2020-12-20 01:08:13,881 INFO 60797 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-12-20 01:08:14,023 INFO 60797 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/server/app/assets
+2020-12-20 01:08:14,026 INFO 60797 [egg-security] use methodnoallow middleware
+2020-12-20 01:08:14,027 INFO 60797 [egg-security] use noopen middleware
+2020-12-20 01:08:14,028 INFO 60797 [egg-security] use nosniff middleware
+2020-12-20 01:08:14,029 INFO 60797 [egg-security] use xssProtection middleware
+2020-12-20 01:08:14,029 INFO 60797 [egg-security] use xframe middleware
+2020-12-20 01:08:14,030 INFO 60797 [egg-security] use dta middleware
+2020-12-20 01:08:14,030 INFO 60797 [egg-security] compose 6 middlewares into one security middleware
+2020-12-20 01:08:14,048 INFO 60797 [egg:core] dump config after load, 5ms
+2020-12-20 01:08:14,083 INFO 60797 [egg-redis] client connect success
+2020-12-20 01:08:14,087 INFO 60797 [egg-redis] instance[0] status OK, client ready
+2020-12-20 01:08:14,104 INFO 60797 [egg-watcher:application] watcher start success
+2020-12-20 01:08:14,115 INFO 60797 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 20 2020 01:08:14 GMT+0800 (中国标准时间)
+2020-12-20 01:08:14,131 INFO 60797 [egg:core] dump config after ready, 8ms
+2020-12-20 01:08:18,827 INFO 60797 [egg-sequelize](7ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:08:18,837 INFO 60797 [egg-sequelize](6ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:09:26,230 INFO 60797 [egg-sequelize](6ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2020-12-20 01:09:26,240 INFO 60797 [egg-sequelize](7ms) Executed (default): SELECT `id`, `username`, `password`, `avatar`, `phone`, `sign`, `createTime`, `updateTime` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;

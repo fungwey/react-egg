@@ -4,6 +4,15 @@
   "httpLog": {
     "type": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js"
   },
+  "allowHosts": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+  "interfaceLimit": {
+    "time": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "maxCount": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js"
+  },
+  "interfaceCache": {
+    "expire": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "include": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js"
+  },
   "security": {
     "csrf": {
       "enable": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",

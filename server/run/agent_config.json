@@ -373,6 +373,20 @@
     "httpLog": {
       "type": "all"
     },
+    "allowHosts": [
+      "localhost:8000",
+      "127.0.0.1:8000"
+    ],
+    "interfaceLimit": {
+      "time": 3000,
+      "maxCount": 10
+    },
+    "interfaceCache": {
+      "expire": 10,
+      "include": [
+        "/api/user/detail"
+      ]
+    },
     "auth": {
       "exclude": [
         "/api/user/login",
@@ -578,6 +592,33 @@
       "enable": true,
       "path": "/Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-notFound",
       "name": "notFound",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/Witte/Desktop/project/react-egg/server/config/plugin.js"
+    },
+    "allowHosts": {
+      "enable": true,
+      "path": "/Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-allowHosts",
+      "name": "allowHosts",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/Witte/Desktop/project/react-egg/server/config/plugin.js"
+    },
+    "interfaceLimit": {
+      "enable": true,
+      "path": "/Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-interfaceLimit",
+      "name": "interfaceLimit",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/Witte/Desktop/project/react-egg/server/config/plugin.js"
+    },
+    "interfaceCache": {
+      "enable": true,
+      "path": "/Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-interfaceCache",
+      "name": "interfaceCache",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],

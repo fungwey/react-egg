@@ -14,7 +14,15 @@ module.exports = (app) => {
       store[key] = null;
     },
   };
-  app.config.coreMiddleware.push("notFound");
-  app.config.coreMiddleware.push("auth");
+  const mids = app.config.coreMiddleware;
+
+  app.config.coreMiddleware = [
+    ...mids,
+    ...["interfaceCache", "interfaceLimit", "allowHosts", "notFound", "auth"],
+  ];
+
+  // app.config.coreMiddleware.push("allowHosts");
+  // app.config.coreMiddleware.push("notFound");
+  // app.config.coreMiddleware.push("auth");
   // console.log(app.config.coreMiddleware);
 };
