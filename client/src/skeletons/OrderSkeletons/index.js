@@ -9,8 +9,8 @@ export default function(props) {
 
   return (
     <div className="order-skeletons">
-      {state.map(item => (
-        <div className="order-item" key={item}>
+      {state.map((item, index) => (
+        <div className="order-item" key={index}>
           <div className={'skeletons left'}></div>
           <div className="center">
             <div className={'skeletons title'}></div>
