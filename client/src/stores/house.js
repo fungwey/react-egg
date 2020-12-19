@@ -1,6 +1,17 @@
 import { Http } from '@/utils';
 import { CommonEnum } from '@/enums';
 
+async function handleOrder(url, dispatch, payload) {
+  const result = await Http({
+    url: url,
+    body: payload,
+  });
+  dispatch({
+    type: 'setOrder',
+    payload: result,
+  });
+}
+
 export default {
   state: {
     detail: {},
@@ -8,12 +19,19 @@ export default {
     page: CommonEnum.PAGE,
     showLoading: true,
     reloadCommentsNum: 0,
+    order: null,
   },
   reducers: {
     getDetail(state, payload) {
       return {
         ...state,
         detail: payload,
+      };
+    },
+    setOrder(state, payload) {
+      return {
+        ...state,
+        order: payload,
       };
     },
     getComments(state, payload) {
@@ -64,7 +82,7 @@ export default {
     async getCommentsAsync(dispatch, rootState, payload) {
       const { comments, page } = rootState.house;
       const lists = await Http({
-        url: '/comments/lists',
+        url: '/comment/lists',
         body: {
           ...payload,
           pageSize: page.pageSize,
@@ -82,7 +100,7 @@ export default {
     },
     async addCommentsAsync(dispatch, rootState, payload) {
       const result = await Http({
-        url: '/comments/add',
+        url: '/comment/add',
         body: payload,
       });
       if (result) {
@@ -91,6 +109,15 @@ export default {
           payload: {},
         });
       }
+    },
+    async hasOrderAsync(dispatch, rootState, payload) {
+      await handleOrder('/orders/hasOrder', dispatch, payload);
+    },
+    async addOrderAsync(dispatch, rootState, payload) {
+      await handleOrder('/orders/addOrder', dispatch, payload);
+    },
+    async delOrderAsync(dispatch, rootState, payload) {
+      await handleOrder('/orders/delOrder', dispatch, payload);
     },
   },
 };

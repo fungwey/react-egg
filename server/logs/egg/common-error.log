@@ -1,0 +1,327 @@
+2020-12-19 00:54:01,042 ERROR 14984 nodejs.ClusterClientNoResponseError: client no response in 535510ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Witte/Desktop/project/react-egg/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:555:17)
+    at processTimers (node:internal/timers:498:7)
+name: "ClusterClientNoResponseError"
+pid: 14984
+hostname: fengwei.local
+
+2020-12-19 01:23:53,398 ERROR 1040 [-/127.0.0.1/-/55ms POST /api/house/search] nodejs.ReferenceError: lte is not defined
+    at /Users/Witte/Desktop/project/react-egg/server/app/service/house.js:35:12
+    at HouseService.run (/Users/Witte/Desktop/project/react-egg/server/app/service/base.js:7:28)
+    at HouseService.search (/Users/Witte/Desktop/project/react-egg/server/app/service/house.js:31:17)
+    at HouseController.search (/Users/Witte/Desktop/project/react-egg/server/app/controller/house.js:12:44)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Witte/Desktop/project/react-egg/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Witte/Desktop/project/react-egg/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/Witte/Desktop/project/react-egg/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+
+pid: 1040
+hostname: bogon
+
+2020-12-19 01:24:13,384 ERROR 1040 [-/127.0.0.1/-/4ms POST /api/house/search] nodejs.ReferenceError: lte is not defined
+    at /Users/Witte/Desktop/project/react-egg/server/app/service/house.js:35:12
+    at HouseService.run (/Users/Witte/Desktop/project/react-egg/server/app/service/base.js:7:28)
+    at HouseService.search (/Users/Witte/Desktop/project/react-egg/server/app/service/house.js:31:17)
+    at HouseController.search (/Users/Witte/Desktop/project/react-egg/server/app/controller/house.js:12:44)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Witte/Desktop/project/react-egg/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Witte/Desktop/project/react-egg/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/Witte/Desktop/project/react-egg/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+
+pid: 1040
+hostname: bogon
+
+2020-12-19 03:16:25,106 ERROR 7381 [-/127.0.0.1/-/40ms POST /api/comment/add] nodejs.TypeError: ctx.service.comment.add is not a function
+    at CommentController.add (/Users/Witte/Desktop/project/react-egg/server/app/controller/comment.js:8:46)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/httpLog.js:20:5
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-auth/app/middleware/auth.js:19:7
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-notFound/app/middleware/notFound.js:9:7
+    at async /Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 7381
+hostname: bogon
+
+2020-12-19 03:25:03,446 ERROR 7872 [-/127.0.0.1/-/330ms POST /api/comment/lists] nodejs.ReferenceError: paramse is not defined
+    at /Users/Witte/Desktop/project/react-egg/server/app/service/comment.js:19:18
+    at CommentService.run (/Users/Witte/Desktop/project/react-egg/server/app/service/base.js:7:28)
+    at CommentService.lists (/Users/Witte/Desktop/project/react-egg/server/app/service/comment.js:12:17)
+    at CommentController.lists (/Users/Witte/Desktop/project/react-egg/server/app/controller/comment.js:21:46)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/httpLog.js:20:5
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-auth/app/middleware/auth.js:19:7
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-notFound/app/middleware/notFound.js:9:7
+    at async /Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+
+pid: 7872
+hostname: bogon
+
+2020-12-19 03:25:05,891 ERROR 7872 [-/127.0.0.1/-/46ms POST /api/comment/lists] nodejs.ReferenceError: paramse is not defined
+    at /Users/Witte/Desktop/project/react-egg/server/app/service/comment.js:19:18
+    at CommentService.run (/Users/Witte/Desktop/project/react-egg/server/app/service/base.js:7:28)
+    at CommentService.lists (/Users/Witte/Desktop/project/react-egg/server/app/service/comment.js:12:17)
+    at CommentController.lists (/Users/Witte/Desktop/project/react-egg/server/app/controller/comment.js:21:46)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/httpLog.js:20:5
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-auth/app/middleware/auth.js:19:7
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-notFound/app/middleware/notFound.js:9:7
+    at async /Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+
+pid: 7872
+hostname: bogon
+
+2020-12-19 03:25:40,946 ERROR 7950 [-/127.0.0.1/-/95ms POST /api/comment/lists] nodejs.ReferenceError: paramse is not defined
+    at /Users/Witte/Desktop/project/react-egg/server/app/service/comment.js:19:18
+    at CommentService.run (/Users/Witte/Desktop/project/react-egg/server/app/service/base.js:7:28)
+    at CommentService.lists (/Users/Witte/Desktop/project/react-egg/server/app/service/comment.js:12:17)
+    at CommentController.lists (/Users/Witte/Desktop/project/react-egg/server/app/controller/comment.js:21:46)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/httpLog.js:20:5
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-auth/app/middleware/auth.js:19:7
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-notFound/app/middleware/notFound.js:9:7
+    at async /Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+
+pid: 7950
+hostname: bogon
+
+2020-12-19 03:25:59,178 ERROR 7972 [-/127.0.0.1/-/33ms POST /api/comment/lists] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.select (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
+    at Function.findAll (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1753:47)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/service/comment.js:13:7
+
+pid: 7972
+hostname: bogon
+
+2020-12-19 03:26:07,255 ERROR 7972 [-/127.0.0.1/-/9ms POST /api/comment/lists] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.select (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
+    at Function.findAll (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1753:47)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/service/comment.js:13:7
+
+pid: 7972
+hostname: bogon
+
+2020-12-19 03:27:04,822 ERROR 7972 [-/127.0.0.1/-/28ms POST /api/comment/lists] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.select (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
+    at Function.findAll (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1753:47)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/service/comment.js:13:7
+
+pid: 7972
+hostname: bogon
+
+2020-12-19 03:27:21,938 ERROR 8031 [-/127.0.0.1/-/180ms POST /api/comment/lists] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.select (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
+    at Function.findAll (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1753:47)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/service/comment.js:14:7
+
+pid: 8031
+hostname: bogon
+
+2020-12-19 03:27:52,236 ERROR 8074 [-/127.0.0.1/-/22ms POST /api/comment/lists] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.select (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
+    at Function.findAll (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1753:47)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/service/comment.js:14:7
+
+pid: 8074
+hostname: bogon
+
+2020-12-19 22:29:42,029 ERROR 53410 [-/127.0.0.1/-/384ms POST /api/orders/hasOrder] nodejs.TypeError: Cannot read property 'hasOrder' of undefined
+    at OrdersController.hasOrder (/Users/Witte/Desktop/project/react-egg/server/app/controller/orders.js:8:45)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/userExist.js:11:7
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/httpLog.js:20:5
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-auth/app/middleware/auth.js:19:7
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-notFound/app/middleware/notFound.js:9:7
+    at async /Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+
+pid: 53410
+hostname: bogon
+
+2020-12-19 22:30:31,908 ERROR 53410 [-/127.0.0.1/-/31ms POST /api/orders/hasOrder] nodejs.TypeError: Cannot read property 'hasOrder' of undefined
+    at OrdersController.hasOrder (/Users/Witte/Desktop/project/react-egg/server/app/controller/orders.js:8:45)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/userExist.js:11:7
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/httpLog.js:20:5
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-auth/app/middleware/auth.js:19:7
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-notFound/app/middleware/notFound.js:9:7
+    at async /Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+
+pid: 53410
+hostname: bogon
+
+2020-12-19 22:31:48,387 ERROR 53485 [-/127.0.0.1/-/421ms POST /api/orders/hasOrder] nodejs.Error: WHERE parameter "userId" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.select (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
+    at Function.findAll (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1753:47)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Function.findOne (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1917:12)
+
+pid: 53485
+hostname: bogon
+
+2020-12-19 22:33:05,092 ERROR 53535 [-/127.0.0.1/-/623ms POST /api/orders/hasOrder] nodejs.Error: WHERE parameter "userId" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.select (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
+    at Function.findAll (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1753:47)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Function.findOne (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1917:12)
+
+pid: 53535
+hostname: bogon
+
+2020-12-19 22:33:40,659 ERROR 53560 [-/127.0.0.1/-/235ms POST /api/orders/hasOrder] nodejs.Error: WHERE parameter "userId" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2258:13)
+    at /Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1316:28)
+    at MySQLQueryInterface.select (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:939:27)
+    at Function.findAll (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1753:47)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Function.findOne (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1917:12)
+
+pid: 53560
+hostname: bogon
+
+2020-12-19 22:35:52,436 ERROR 53639 [-/127.0.0.1/-/515ms POST /api/orders/hasOrder] nodejs.SequelizeDatabaseError: Unknown column 'orderNumber' in 'field list'
+    at Query.formatError (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1753:21)
+    at async Function.findOne (/Users/Witte/Desktop/project/react-egg/server/node_modules/sequelize/lib/model.js:1917:12)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/service/orders.js:7:22
+    at async OrdersController.hasOrder (/Users/Witte/Desktop/project/react-egg/server/app/controller/orders.js:9:20)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/userExist.js:11:7
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'orderNumber' in 'field list'","sql":"SELECT `id`, `orderNumber`, `userId`, `houseId`, `isPayed`, `createTime`, `updateTime` FROM `orders` AS `orders` WHERE `orders`.`userId` = 22 AND `orders`.`houseId` = '1' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'orderNumber' in 'field list'","sql":"SELECT `id`, `orderNumber`, `userId`, `houseId`, `isPayed`, `createTime`, `updateTime` FROM `orders` AS `orders` WHERE `orders`.`userId` = 22 AND `orders`.`houseId` = '1' LIMIT 1;"}
+sql: "SELECT `id`, `orderNumber`, `userId`, `houseId`, `isPayed`, `createTime`, `updateTime` FROM `orders` AS `orders` WHERE `orders`.`userId` = 22 AND `orders`.`houseId` = '1' LIMIT 1;"
+parameters: undefined
+pid: 53639
+hostname: bogon
+
+2020-12-19 22:55:37,208 ERROR 54270 [-/127.0.0.1/-/76ms POST /api/orders/delOrder] nodejs.ReferenceError: tx is not defined
+    at OrdersController.delOrder (/Users/Witte/Desktop/project/react-egg/server/app/controller/orders.js:32:54)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/userExist.js:11:7
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/httpLog.js:20:5
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-auth/app/middleware/auth.js:19:7
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-notFound/app/middleware/notFound.js:9:7
+    at async /Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+
+pid: 54270
+hostname: bogon
+
+2020-12-19 22:56:05,482 ERROR 54289 [-/127.0.0.1/-/33ms POST /api/orders/delOrder] nodejs.TypeError: ctx.model.Orders.destroyed is not a function
+    at /Users/Witte/Desktop/project/react-egg/server/app/service/orders.js:24:45
+    at OrdersService.run (/Users/Witte/Desktop/project/react-egg/server/app/service/base.js:7:28)
+    at OrdersService.delOrder (/Users/Witte/Desktop/project/react-egg/server/app/service/orders.js:23:17)
+    at OrdersController.delOrder (/Users/Witte/Desktop/project/react-egg/server/app/controller/orders.js:32:45)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/userExist.js:11:7
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/httpLog.js:20:5
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-auth/app/middleware/auth.js:19:7
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-notFound/app/middleware/notFound.js:9:7
+    at async /Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+
+pid: 54289
+hostname: bogon
+
+2020-12-19 23:19:02,608 ERROR 55032 [-/127.0.0.1/-/64ms POST /api/orders/lists] nodejs.ReferenceError: app is not defined
+    at /Users/Witte/Desktop/project/react-egg/server/app/service/orders.js:42:20
+    at OrdersService.run (/Users/Witte/Desktop/project/react-egg/server/app/service/base.js:7:28)
+    at OrdersService.lists (/Users/Witte/Desktop/project/react-egg/server/app/service/orders.js:32:17)
+    at OrdersController.lists (/Users/Witte/Desktop/project/react-egg/server/app/controller/orders.js:39:45)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/userExist.js:11:7
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/httpLog.js:20:5
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-auth/app/middleware/auth.js:19:7
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-notFound/app/middleware/notFound.js:9:7
+    at async /Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+
+pid: 55032
+hostname: bogon
+
+2020-12-19 23:19:47,205 ERROR 55032 [-/127.0.0.1/-/22ms POST /api/orders/lists] nodejs.ReferenceError: app is not defined
+    at /Users/Witte/Desktop/project/react-egg/server/app/service/orders.js:42:20
+    at OrdersService.run (/Users/Witte/Desktop/project/react-egg/server/app/service/base.js:7:28)
+    at OrdersService.lists (/Users/Witte/Desktop/project/react-egg/server/app/service/orders.js:32:17)
+    at OrdersController.lists (/Users/Witte/Desktop/project/react-egg/server/app/controller/orders.js:39:45)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/userExist.js:11:7
+    at async /Users/Witte/Desktop/project/react-egg/server/app/middleware/httpLog.js:20:5
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-auth/app/middleware/auth.js:19:7
+    at async /Users/Witte/Desktop/project/react-egg/server/lib/plugin/egg-notFound/app/middleware/notFound.js:9:7
+    at async /Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+
+pid: 55032
+hostname: bogon
+

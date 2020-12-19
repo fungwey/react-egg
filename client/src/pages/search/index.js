@@ -104,12 +104,12 @@ export default function(props) {
             <div className="item" key={item.id}>
               <img
                 src={require('../../assets/blank.png')}
-                data-src={item.img}
+                data-src={item?.imgs[0]?.url}
                 className="item-img"
                 alt="img"
               />
               <div className="item-right">
-                <div className="title">{item.title}</div>
+                <div className="title">{item.name}</div>
                 <div className="price">{item.price}</div>
               </div>
             </div>

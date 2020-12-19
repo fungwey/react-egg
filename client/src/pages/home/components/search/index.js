@@ -4,7 +4,7 @@ import dayjs from 'dayjs';
 import { history } from 'umi';
 
 function Search(props) {
-  console.log('sear ren');
+  console.log('sear ren', props);
   // const [citys, setCitys] = useState([
   //   [
   //     {

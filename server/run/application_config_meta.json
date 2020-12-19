@@ -1,0 +1,367 @@
+{
+  "keys": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+  "middleware": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+  "httpLog": {
+    "type": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+      "type": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "view": {
+    "mapping": {
+      ".html": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js"
+    },
+    "root": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "cache": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-view/config/config.default.js"
+  },
+  "ejs": {
+    "delimiter": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "root": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-view-ejs/config/config.default.js",
+    "cache": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-view-ejs/config/config.local.js",
+    "debug": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-view-ejs/config/config.default.js",
+    "strict": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-view-ejs/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "dir": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "dynamic": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-static/config/config.default.js"
+  },
+  "session": {
+    "key": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "httpOnly": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "maxAge": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "renew": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "encrypt": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-session/config/config.default.js"
+  },
+  "auth": {
+    "exclude": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js"
+  },
+  "mysql": {
+    "app": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "agent": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "client": {
+      "host": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+      "port": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+      "user": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+      "password": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+      "database": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js"
+    },
+    "default": {
+      "database": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "sequelize": {
+    "dialect": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "host": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "port": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "user": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "password": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "database": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "define": {
+      "timestamps": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+      "freezeTableName": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js"
+    },
+    "username": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-sequelize/config/config.default.js"
+  },
+  "jwt": {
+    "secret": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+    "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-jwt/config/config.default.js"
+  },
+  "redis": {
+    "client": {
+      "port": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+      "host": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+      "password": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+      "db": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js"
+    },
+    "default": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-redis/config/config.default.js"
+  },
+  "salt": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+  "redisExpire": "/Users/Witte/Desktop/project/react-egg/server/config/config.default.js",
+  "helper": {
+    "shtml": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "validate": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg-validate/config/config.default.js",
+  "env": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "name": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "version": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "description": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "private": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "dayjs": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "egg": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "egg-jwt": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "md5": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "test": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "url": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "license": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "env": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "level": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "port": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/Witte/Desktop/project/react-egg/server/node_modules/egg/config/config.default.js"
+}

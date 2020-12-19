@@ -4,11 +4,11 @@ import { createForm } from 'rc-form';
 import { useStoreHook } from 'think-react-store';
 
 function Edit(props) {
-  const [files, setFiles] = useState([]);
   const { getFieldProps, validateFields } = props.form;
   const {
-    user: { editUserAsync },
+    user: { editUserAsync, getUserAsync, avatar, phone, sign },
   } = useStoreHook();
+  const [files, setFiles] = useState([{ url: avatar }]);
 
   const handleChange = files => {
     console.log(files, files[0]?.file?.size / 1024 / 1024);
@@ -31,8 +31,8 @@ function Edit(props) {
         return;
       } else {
         editUserAsync({
-          img: files[0].url,
-          tel: value.tel,
+          avatar: files[0].url,
+          phone: value.phone,
           sign: value.sign,
         });
       }
@@ -40,48 +40,41 @@ function Edit(props) {
   };
 
   useEffect(() => {
-    console.log(props);
+    // console.log(props);
+    getUserAsync({});
   }, []);
 
   return (
     <div className="user-edit">
       <List>
-        <List.Item>
-          <ImagePicker
-            files={files}
-            selectable={files.length < 1}
-            onChange={handleChange}
-          />
-        </List.Item>
-        <List.Item>
-          <InputItem
-            {...getFieldProps('tel', {
-              rules: [{ required: true }],
-              initialValue: '1234',
-            })}
-          >
-            电话：
-          </InputItem>
-        </List.Item>
-        <List.Item>
-          <InputItem
-            {...getFieldProps('sign', {
-              rules: [{ required: true }],
-              initialValue: '签名',
-            })}
-          >
-            签名：
-          </InputItem>
-        </List.Item>
-        <List.Item>
-          <Button
-            type="warning"
-            style={{ marginTop: '20px' }}
-            onClick={handleSubmit}
-          >
-            修改
-          </Button>
-        </List.Item>
+        <ImagePicker
+          files={files}
+          selectable={files.length < 1}
+          onChange={handleChange}
+        />
+        <InputItem
+          {...getFieldProps('phone', {
+            rules: [{ required: true }],
+            initialValue: phone,
+          })}
+        >
+          电话：
+        </InputItem>
+        <InputItem
+          {...getFieldProps('sign', {
+            rules: [{ required: true }],
+            initialValue: sign,
+          })}
+        >
+          签名：
+        </InputItem>
+        <Button
+          type="warning"
+          style={{ marginTop: '20px' }}
+          onClick={handleSubmit}
+        >
+          修改
+        </Button>
       </List>
     </div>
   );

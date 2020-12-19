@@ -13,13 +13,13 @@ export default function(props) {
   });
 
   useEffect(() => {}, []);
-
+  console.log('banner', props);
   return (
     <AwesomeSwiper className="banner" config={config}>
       <div className="swiper-wrapper">
-        {props?.banner?.map(item => (
-          <div className="swiper-slide" key={item.id}>
-            <img src={item} alt="" className="banner" />
+        {props?.banner?.map((item, index) => (
+          <div className="swiper-slide" key={index}>
+            <img src={item.url} alt="" className="banner" />
           </div>
         ))}
       </div>

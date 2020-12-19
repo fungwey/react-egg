@@ -10,7 +10,15 @@ export default {
           },
           {
             label: '北京',
-            value: '10000',
+            value: '10002',
+          },
+          {
+            label: '上海',
+            value: '10003',
+          },
+          {
+            label: '苏州',
+            value: '10004',
           },
         ],
       ],

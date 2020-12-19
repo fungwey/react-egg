@@ -60,7 +60,7 @@ function Register(props) {
         </InputItem>
       </List>
       <Button type="warning" onClick={handleSubmit}>
-        登录
+        注册
       </Button>
       <div className="register" onClick={handleClick}>
         已有账户，去登录

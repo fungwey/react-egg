@@ -1,0 +1,779 @@
+2020-12-07 15:56:19,413 INFO 26504 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 15:56:19,456 INFO 26504 [egg-multipart] stream mode enable
+2020-12-07 15:56:19,692 INFO 26504 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 15:56:19,697 INFO 26504 [egg-security] use methodnoallow middleware
+2020-12-07 15:56:19,699 INFO 26504 [egg-security] use noopen middleware
+2020-12-07 15:56:19,701 INFO 26504 [egg-security] use nosniff middleware
+2020-12-07 15:56:19,702 INFO 26504 [egg-security] use xssProtection middleware
+2020-12-07 15:56:19,704 INFO 26504 [egg-security] use xframe middleware
+2020-12-07 15:56:19,705 INFO 26504 [egg-security] use dta middleware
+2020-12-07 15:56:19,705 INFO 26504 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 15:56:19,724 INFO 26504 [egg:core] dump config after load, 6ms
+2020-12-07 15:56:19,746 INFO 26504 [egg-watcher:application] watcher start success
+2020-12-07 15:56:19,758 INFO 26504 [egg:core] dump config after ready, 6ms
+2020-12-07 16:05:00,696 INFO 27559 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:05:00,726 INFO 27559 [egg-multipart] stream mode enable
+2020-12-07 16:05:00,862 INFO 27559 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:05:00,865 INFO 27559 [egg-security] use methodnoallow middleware
+2020-12-07 16:05:00,867 INFO 27559 [egg-security] use noopen middleware
+2020-12-07 16:05:00,870 INFO 27559 [egg-security] use nosniff middleware
+2020-12-07 16:05:00,871 INFO 27559 [egg-security] use xssProtection middleware
+2020-12-07 16:05:00,894 INFO 27559 [egg-security] use xframe middleware
+2020-12-07 16:05:00,895 INFO 27559 [egg-security] use dta middleware
+2020-12-07 16:05:00,895 INFO 27559 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:05:00,908 INFO 27559 [egg:core] dump config after load, 5ms
+2020-12-07 16:05:00,927 INFO 27559 [egg-watcher:application] watcher start success
+2020-12-07 16:05:00,935 INFO 27559 [egg:core] dump config after ready, 6ms
+2020-12-07 16:05:31,204 INFO 27608 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:05:31,249 INFO 27608 [egg-multipart] stream mode enable
+2020-12-07 16:05:31,410 INFO 27608 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:05:31,413 INFO 27608 [egg-security] use methodnoallow middleware
+2020-12-07 16:05:31,414 INFO 27608 [egg-security] use noopen middleware
+2020-12-07 16:05:31,415 INFO 27608 [egg-security] use nosniff middleware
+2020-12-07 16:05:31,419 INFO 27608 [egg-security] use xssProtection middleware
+2020-12-07 16:05:31,420 INFO 27608 [egg-security] use xframe middleware
+2020-12-07 16:05:31,421 INFO 27608 [egg-security] use dta middleware
+2020-12-07 16:05:31,421 INFO 27608 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:05:31,436 INFO 27608 [egg:core] dump config after load, 5ms
+2020-12-07 16:05:31,449 INFO 27608 [egg-watcher:application] watcher start success
+2020-12-07 16:05:31,458 INFO 27608 [egg:core] dump config after ready, 6ms
+2020-12-07 16:07:59,553 INFO 27884 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:07:59,579 INFO 27884 [egg-multipart] stream mode enable
+2020-12-07 16:07:59,701 INFO 27884 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:07:59,703 INFO 27884 [egg-security] use methodnoallow middleware
+2020-12-07 16:07:59,704 INFO 27884 [egg-security] use noopen middleware
+2020-12-07 16:07:59,705 INFO 27884 [egg-security] use nosniff middleware
+2020-12-07 16:07:59,706 INFO 27884 [egg-security] use xssProtection middleware
+2020-12-07 16:07:59,707 INFO 27884 [egg-security] use xframe middleware
+2020-12-07 16:07:59,707 INFO 27884 [egg-security] use dta middleware
+2020-12-07 16:07:59,708 INFO 27884 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:07:59,718 INFO 27884 [egg:core] dump config after load, 5ms
+2020-12-07 16:07:59,731 INFO 27884 [egg-watcher:application] watcher start success
+2020-12-07 16:07:59,739 INFO 27884 [egg:core] dump config after ready, 6ms
+2020-12-07 16:08:44,376 INFO 27972 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:08:44,421 INFO 27972 [egg-multipart] stream mode enable
+2020-12-07 16:08:44,615 INFO 27972 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:08:44,618 INFO 27972 [egg-security] use methodnoallow middleware
+2020-12-07 16:08:44,618 INFO 27972 [egg-security] use noopen middleware
+2020-12-07 16:08:44,619 INFO 27972 [egg-security] use nosniff middleware
+2020-12-07 16:08:44,620 INFO 27972 [egg-security] use xssProtection middleware
+2020-12-07 16:08:44,621 INFO 27972 [egg-security] use xframe middleware
+2020-12-07 16:08:44,622 INFO 27972 [egg-security] use dta middleware
+2020-12-07 16:08:44,622 INFO 27972 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:08:44,641 INFO 27972 [egg:core] dump config after load, 8ms
+2020-12-07 16:08:44,658 INFO 27972 [egg-watcher:application] watcher start success
+2020-12-07 16:08:44,667 INFO 27972 [egg:core] dump config after ready, 7ms
+2020-12-07 16:08:54,720 INFO 27999 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:08:54,998 INFO 27999 [egg-multipart] stream mode enable
+2020-12-07 16:08:55,399 INFO 27999 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:08:55,407 INFO 27999 [egg-security] use methodnoallow middleware
+2020-12-07 16:08:55,409 INFO 27999 [egg-security] use noopen middleware
+2020-12-07 16:08:55,411 INFO 27999 [egg-security] use nosniff middleware
+2020-12-07 16:08:55,412 INFO 27999 [egg-security] use xssProtection middleware
+2020-12-07 16:08:55,420 INFO 27999 [egg-security] use xframe middleware
+2020-12-07 16:08:55,421 INFO 27999 [egg-security] use dta middleware
+2020-12-07 16:08:55,421 INFO 27999 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:08:55,448 INFO 27999 [egg:core] dump config after load, 15ms
+2020-12-07 16:08:55,490 INFO 27999 [egg-watcher:application] watcher start success
+2020-12-07 16:08:55,503 INFO 27999 [egg:core] dump config after ready, 10ms
+2020-12-07 16:11:22,596 INFO 28186 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:11:22,669 INFO 28186 [egg-multipart] stream mode enable
+2020-12-07 16:11:22,853 INFO 28186 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:11:22,857 INFO 28186 [egg-security] use methodnoallow middleware
+2020-12-07 16:11:22,858 INFO 28186 [egg-security] use noopen middleware
+2020-12-07 16:11:22,859 INFO 28186 [egg-security] use nosniff middleware
+2020-12-07 16:11:22,859 INFO 28186 [egg-security] use xssProtection middleware
+2020-12-07 16:11:22,860 INFO 28186 [egg-security] use xframe middleware
+2020-12-07 16:11:22,861 INFO 28186 [egg-security] use dta middleware
+2020-12-07 16:11:22,861 INFO 28186 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:11:22,875 INFO 28186 [egg:core] dump config after load, 7ms
+2020-12-07 16:11:22,888 INFO 28186 [egg-watcher:application] watcher start success
+2020-12-07 16:11:22,896 INFO 28186 [egg:core] dump config after ready, 6ms
+2020-12-07 16:13:19,765 INFO 28375 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:13:19,929 INFO 28375 [egg-multipart] stream mode enable
+2020-12-07 16:13:20,597 INFO 28375 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:13:20,603 INFO 28375 [egg-security] use methodnoallow middleware
+2020-12-07 16:13:20,608 INFO 28375 [egg-security] use noopen middleware
+2020-12-07 16:13:20,610 INFO 28375 [egg-security] use nosniff middleware
+2020-12-07 16:13:20,612 INFO 28375 [egg-security] use xssProtection middleware
+2020-12-07 16:13:20,614 INFO 28375 [egg-security] use xframe middleware
+2020-12-07 16:13:20,615 INFO 28375 [egg-security] use dta middleware
+2020-12-07 16:13:20,615 INFO 28375 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:13:20,652 INFO 28375 [egg:core] dump config after load, 11ms
+2020-12-07 16:13:20,676 INFO 28375 [egg-watcher:application] watcher start success
+2020-12-07 16:13:20,702 INFO 28375 [egg:core] dump config after ready, 22ms
+2020-12-07 16:14:20,677 INFO 28526 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:14:20,702 INFO 28526 [egg-multipart] stream mode enable
+2020-12-07 16:14:20,831 INFO 28526 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:14:20,834 INFO 28526 [egg-security] use methodnoallow middleware
+2020-12-07 16:14:20,835 INFO 28526 [egg-security] use noopen middleware
+2020-12-07 16:14:20,836 INFO 28526 [egg-security] use nosniff middleware
+2020-12-07 16:14:20,838 INFO 28526 [egg-security] use xssProtection middleware
+2020-12-07 16:14:20,839 INFO 28526 [egg-security] use xframe middleware
+2020-12-07 16:14:20,839 INFO 28526 [egg-security] use dta middleware
+2020-12-07 16:14:20,839 INFO 28526 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:14:20,851 INFO 28526 [egg:core] dump config after load, 4ms
+2020-12-07 16:14:20,864 INFO 28526 [egg-watcher:application] watcher start success
+2020-12-07 16:14:20,870 INFO 28526 [egg:core] dump config after ready, 5ms
+2020-12-07 16:16:15,539 INFO 28799 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:16:15,716 INFO 28799 [egg-multipart] stream mode enable
+2020-12-07 16:16:15,921 INFO 28799 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:16:15,925 INFO 28799 [egg-security] use methodnoallow middleware
+2020-12-07 16:16:15,925 INFO 28799 [egg-security] use noopen middleware
+2020-12-07 16:16:15,926 INFO 28799 [egg-security] use nosniff middleware
+2020-12-07 16:16:15,927 INFO 28799 [egg-security] use xssProtection middleware
+2020-12-07 16:16:15,928 INFO 28799 [egg-security] use xframe middleware
+2020-12-07 16:16:15,929 INFO 28799 [egg-security] use dta middleware
+2020-12-07 16:16:15,929 INFO 28799 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:16:15,957 INFO 28799 [egg:core] dump config after load, 7ms
+2020-12-07 16:16:15,975 INFO 28799 [egg-watcher:application] watcher start success
+2020-12-07 16:16:15,984 INFO 28799 [egg:core] dump config after ready, 6ms
+2020-12-07 16:16:37,362 INFO 28867 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:16:37,517 INFO 28867 [egg-multipart] stream mode enable
+2020-12-07 16:16:37,729 INFO 28867 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:16:37,731 INFO 28867 [egg-security] use methodnoallow middleware
+2020-12-07 16:16:37,732 INFO 28867 [egg-security] use noopen middleware
+2020-12-07 16:16:37,734 INFO 28867 [egg-security] use nosniff middleware
+2020-12-07 16:16:37,734 INFO 28867 [egg-security] use xssProtection middleware
+2020-12-07 16:16:37,736 INFO 28867 [egg-security] use xframe middleware
+2020-12-07 16:16:37,737 INFO 28867 [egg-security] use dta middleware
+2020-12-07 16:16:37,737 INFO 28867 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:16:37,753 INFO 28867 [egg:core] dump config after load, 5ms
+2020-12-07 16:16:37,766 INFO 28867 [egg-watcher:application] watcher start success
+2020-12-07 16:16:37,773 INFO 28867 [egg:core] dump config after ready, 5ms
+2020-12-07 16:46:22,587 INFO 30716 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:46:22,821 INFO 30716 [egg-multipart] stream mode enable
+2020-12-07 16:46:23,551 INFO 30716 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:46:23,554 INFO 30716 [egg-security] use methodnoallow middleware
+2020-12-07 16:46:23,556 INFO 30716 [egg-security] use noopen middleware
+2020-12-07 16:46:23,562 INFO 30716 [egg-security] use nosniff middleware
+2020-12-07 16:46:23,565 INFO 30716 [egg-security] use xssProtection middleware
+2020-12-07 16:46:23,567 INFO 30716 [egg-security] use xframe middleware
+2020-12-07 16:46:23,571 INFO 30716 [egg-security] use dta middleware
+2020-12-07 16:46:23,571 INFO 30716 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:46:23,722 INFO 30716 [egg:core] dump config after load, 12ms
+2020-12-07 16:46:24,085 INFO 30716 [egg-watcher:application] watcher start success
+2020-12-07 16:46:24,124 INFO 30716 [egg:core] dump config after ready, 28ms
+2020-12-07 16:46:37,380 INFO 30753 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:46:37,420 INFO 30753 [egg-multipart] stream mode enable
+2020-12-07 16:46:37,641 INFO 30753 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:46:37,644 INFO 30753 [egg-security] use methodnoallow middleware
+2020-12-07 16:46:37,645 INFO 30753 [egg-security] use noopen middleware
+2020-12-07 16:46:37,646 INFO 30753 [egg-security] use nosniff middleware
+2020-12-07 16:46:37,647 INFO 30753 [egg-security] use xssProtection middleware
+2020-12-07 16:46:37,648 INFO 30753 [egg-security] use xframe middleware
+2020-12-07 16:46:37,649 INFO 30753 [egg-security] use dta middleware
+2020-12-07 16:46:37,649 INFO 30753 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:46:37,661 INFO 30753 [egg:core] dump config after load, 4ms
+2020-12-07 16:46:37,674 INFO 30753 [egg-watcher:application] watcher start success
+2020-12-07 16:46:37,686 INFO 30753 [egg:core] dump config after ready, 9ms
+2020-12-07 16:47:46,590 INFO 30836 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:47:46,626 INFO 30836 [egg-multipart] stream mode enable
+2020-12-07 16:47:46,930 INFO 30836 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:47:46,938 INFO 30836 [egg-security] use methodnoallow middleware
+2020-12-07 16:47:46,943 INFO 30836 [egg-security] use noopen middleware
+2020-12-07 16:47:46,944 INFO 30836 [egg-security] use nosniff middleware
+2020-12-07 16:47:46,945 INFO 30836 [egg-security] use xssProtection middleware
+2020-12-07 16:47:46,947 INFO 30836 [egg-security] use xframe middleware
+2020-12-07 16:47:46,958 INFO 30836 [egg-security] use dta middleware
+2020-12-07 16:47:46,958 INFO 30836 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:47:46,979 INFO 30836 [egg:core] dump config after load, 12ms
+2020-12-07 16:47:46,995 INFO 30836 [egg-watcher:application] watcher start success
+2020-12-07 16:47:47,006 INFO 30836 [egg:core] dump config after ready, 9ms
+2020-12-07 16:50:06,399 INFO 31178 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 16:50:06,425 INFO 31178 [egg-multipart] stream mode enable
+2020-12-07 16:50:06,548 INFO 31178 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 16:50:06,550 INFO 31178 [egg-security] use methodnoallow middleware
+2020-12-07 16:50:06,551 INFO 31178 [egg-security] use noopen middleware
+2020-12-07 16:50:06,552 INFO 31178 [egg-security] use nosniff middleware
+2020-12-07 16:50:06,553 INFO 31178 [egg-security] use xssProtection middleware
+2020-12-07 16:50:06,554 INFO 31178 [egg-security] use xframe middleware
+2020-12-07 16:50:06,554 INFO 31178 [egg-security] use dta middleware
+2020-12-07 16:50:06,554 INFO 31178 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 16:50:06,568 INFO 31178 [egg:core] dump config after load, 7ms
+2020-12-07 16:50:06,581 INFO 31178 [egg-watcher:application] watcher start success
+2020-12-07 16:50:06,588 INFO 31178 [egg:core] dump config after ready, 6ms
+2020-12-07 17:01:01,136 INFO 31891 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:01:01,735 INFO 31891 [egg-multipart] stream mode enable
+2020-12-07 17:01:02,432 INFO 31891 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 17:01:02,458 INFO 31891 [egg-security] use methodnoallow middleware
+2020-12-07 17:01:02,467 INFO 31891 [egg-security] use noopen middleware
+2020-12-07 17:01:02,474 INFO 31891 [egg-security] use nosniff middleware
+2020-12-07 17:01:02,477 INFO 31891 [egg-security] use xssProtection middleware
+2020-12-07 17:01:02,494 INFO 31891 [egg-security] use xframe middleware
+2020-12-07 17:01:02,500 INFO 31891 [egg-security] use dta middleware
+2020-12-07 17:01:02,501 INFO 31891 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:01:02,628 INFO 31891 [egg:core] dump config after load, 85ms
+2020-12-07 17:01:02,846 INFO 31891 [egg-watcher:application] watcher start success
+2020-12-07 17:01:02,924 INFO 31891 [egg:core] dump config after ready, 31ms
+2020-12-07 17:01:34,253 INFO 31957 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:01:34,300 INFO 31957 [egg-multipart] stream mode enable
+2020-12-07 17:01:34,458 INFO 31957 [egg-static] starting static serve /public/ -> /Users/Witte/Desktop/project/react-egg/egg/app/public
+2020-12-07 17:01:34,460 INFO 31957 [egg-security] use methodnoallow middleware
+2020-12-07 17:01:34,469 INFO 31957 [egg-security] use noopen middleware
+2020-12-07 17:01:34,470 INFO 31957 [egg-security] use nosniff middleware
+2020-12-07 17:01:34,470 INFO 31957 [egg-security] use xssProtection middleware
+2020-12-07 17:01:34,471 INFO 31957 [egg-security] use xframe middleware
+2020-12-07 17:01:34,472 INFO 31957 [egg-security] use dta middleware
+2020-12-07 17:01:34,472 INFO 31957 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:01:34,490 INFO 31957 [egg:core] dump config after load, 11ms
+2020-12-07 17:01:34,522 INFO 31957 [egg-watcher:application] watcher start success
+2020-12-07 17:01:34,532 INFO 31957 [egg:core] dump config after ready, 8ms
+2020-12-07 17:04:01,231 INFO 32160 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:04:01,274 INFO 32160 [egg-multipart] stream mode enable
+2020-12-07 17:04:01,486 INFO 32160 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 17:04:01,488 INFO 32160 [egg-security] use methodnoallow middleware
+2020-12-07 17:04:01,489 INFO 32160 [egg-security] use noopen middleware
+2020-12-07 17:04:01,490 INFO 32160 [egg-security] use nosniff middleware
+2020-12-07 17:04:01,492 INFO 32160 [egg-security] use xssProtection middleware
+2020-12-07 17:04:01,493 INFO 32160 [egg-security] use xframe middleware
+2020-12-07 17:04:01,494 INFO 32160 [egg-security] use dta middleware
+2020-12-07 17:04:01,494 INFO 32160 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:04:01,506 INFO 32160 [egg:core] dump config after load, 5ms
+2020-12-07 17:04:01,518 INFO 32160 [egg-watcher:application] watcher start success
+2020-12-07 17:04:01,531 INFO 32160 [egg:core] dump config after ready, 7ms
+2020-12-07 17:04:45,170 INFO 32225 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:04:45,634 INFO 32225 [egg-multipart] stream mode enable
+2020-12-07 17:04:46,606 INFO 32225 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 17:04:46,613 INFO 32225 [egg-security] use methodnoallow middleware
+2020-12-07 17:04:46,634 INFO 32225 [egg-security] use noopen middleware
+2020-12-07 17:04:46,637 INFO 32225 [egg-security] use nosniff middleware
+2020-12-07 17:04:46,646 INFO 32225 [egg-security] use xssProtection middleware
+2020-12-07 17:04:46,651 INFO 32225 [egg-security] use xframe middleware
+2020-12-07 17:04:46,663 INFO 32225 [egg-security] use dta middleware
+2020-12-07 17:04:46,663 INFO 32225 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:04:46,686 INFO 32225 [egg:core] dump config after load, 7ms
+2020-12-07 17:04:46,706 INFO 32225 [egg-watcher:application] watcher start success
+2020-12-07 17:04:46,717 INFO 32225 [egg:core] dump config after ready, 8ms
+2020-12-07 17:09:20,854 INFO 32647 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:09:20,924 INFO 32647 [egg-multipart] stream mode enable
+2020-12-07 17:09:21,822 INFO 32647 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 17:09:21,826 INFO 32647 [egg-security] use methodnoallow middleware
+2020-12-07 17:09:21,827 INFO 32647 [egg-security] use noopen middleware
+2020-12-07 17:09:21,829 INFO 32647 [egg-security] use nosniff middleware
+2020-12-07 17:09:21,831 INFO 32647 [egg-security] use xssProtection middleware
+2020-12-07 17:09:21,835 INFO 32647 [egg-security] use xframe middleware
+2020-12-07 17:09:21,837 INFO 32647 [egg-security] use dta middleware
+2020-12-07 17:09:21,837 INFO 32647 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:09:21,859 INFO 32647 [egg:core] dump config after load, 8ms
+2020-12-07 17:09:22,022 INFO 32647 [egg-watcher:application] watcher start success
+2020-12-07 17:09:22,055 INFO 32647 [egg:core] dump config after ready, 6ms
+2020-12-07 17:10:27,548 INFO 32738 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:10:27,583 INFO 32738 [egg-multipart] stream mode enable
+2020-12-07 17:10:27,766 INFO 32738 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 17:10:27,773 INFO 32738 [egg-security] use methodnoallow middleware
+2020-12-07 17:10:27,775 INFO 32738 [egg-security] use noopen middleware
+2020-12-07 17:10:27,776 INFO 32738 [egg-security] use nosniff middleware
+2020-12-07 17:10:27,777 INFO 32738 [egg-security] use xssProtection middleware
+2020-12-07 17:10:27,779 INFO 32738 [egg-security] use xframe middleware
+2020-12-07 17:10:27,781 INFO 32738 [egg-security] use dta middleware
+2020-12-07 17:10:27,781 INFO 32738 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:10:27,800 INFO 32738 [egg:core] dump config after load, 9ms
+2020-12-07 17:10:27,814 INFO 32738 [egg-watcher:application] watcher start success
+2020-12-07 17:10:27,827 INFO 32738 [egg:core] dump config after ready, 10ms
+2020-12-07 17:11:11,922 INFO 32799 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:11:11,968 INFO 32799 [egg-multipart] stream mode enable
+2020-12-07 17:11:12,133 INFO 32799 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 17:11:12,136 INFO 32799 [egg-security] use methodnoallow middleware
+2020-12-07 17:11:12,138 INFO 32799 [egg-security] use noopen middleware
+2020-12-07 17:11:12,139 INFO 32799 [egg-security] use nosniff middleware
+2020-12-07 17:11:12,140 INFO 32799 [egg-security] use xssProtection middleware
+2020-12-07 17:11:12,140 INFO 32799 [egg-security] use xframe middleware
+2020-12-07 17:11:12,141 INFO 32799 [egg-security] use dta middleware
+2020-12-07 17:11:12,141 INFO 32799 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:11:12,158 INFO 32799 [egg:core] dump config after load, 8ms
+2020-12-07 17:11:12,174 INFO 32799 [egg-watcher:application] watcher start success
+2020-12-07 17:11:12,183 INFO 32799 [egg:core] dump config after ready, 7ms
+2020-12-07 17:15:08,937 INFO 33069 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:15:08,995 INFO 33069 [egg-multipart] stream mode enable
+2020-12-07 17:15:09,126 INFO 33069 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 17:15:09,129 INFO 33069 [egg-security] use methodnoallow middleware
+2020-12-07 17:15:09,130 INFO 33069 [egg-security] use noopen middleware
+2020-12-07 17:15:09,131 INFO 33069 [egg-security] use nosniff middleware
+2020-12-07 17:15:09,132 INFO 33069 [egg-security] use xssProtection middleware
+2020-12-07 17:15:09,132 INFO 33069 [egg-security] use xframe middleware
+2020-12-07 17:15:09,133 INFO 33069 [egg-security] use dta middleware
+2020-12-07 17:15:09,133 INFO 33069 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:15:09,146 INFO 33069 [egg:core] dump config after load, 6ms
+2020-12-07 17:15:09,161 INFO 33069 [egg-watcher:application] watcher start success
+2020-12-07 17:15:09,168 INFO 33069 [egg:core] dump config after ready, 5ms
+2020-12-07 17:15:10,992 ERROR 33069 [-/127.0.0.1/-/18ms GET /user] nodejs.ReferenceError: /Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:21
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    at eval (/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:32:8)
+    at user (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view/lib/context_view.js:70:23)
+    at async UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:9:5)
+path: "/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html"
+pid: 33069
+hostname: fengwei.local
+
+2020-12-07 17:15:13,431 ERROR 33069 [-/127.0.0.1/-/5ms GET /user] nodejs.ReferenceError: /Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:21
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    at eval (/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:32:8)
+    at user (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view/lib/context_view.js:70:23)
+    at async UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:9:5)
+path: "/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html"
+pid: 33069
+hostname: fengwei.local
+
+2020-12-07 17:17:10,538 ERROR 33069 [-/127.0.0.1/-/5ms GET /user] nodejs.ReferenceError: /Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:21
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    at eval (/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:32:8)
+    at user (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view/lib/context_view.js:70:23)
+    at async UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:9:5)
+path: "/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html"
+pid: 33069
+hostname: fengwei.local
+
+2020-12-07 17:17:10,304 INFO 33209 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:17:10,347 INFO 33209 [egg-multipart] stream mode enable
+2020-12-07 17:17:10,482 INFO 33209 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 17:17:10,486 INFO 33209 [egg-security] use methodnoallow middleware
+2020-12-07 17:17:10,488 INFO 33209 [egg-security] use noopen middleware
+2020-12-07 17:17:10,489 INFO 33209 [egg-security] use nosniff middleware
+2020-12-07 17:17:10,491 INFO 33209 [egg-security] use xssProtection middleware
+2020-12-07 17:17:10,494 INFO 33209 [egg-security] use xframe middleware
+2020-12-07 17:17:10,504 INFO 33209 [egg-security] use dta middleware
+2020-12-07 17:17:10,731 INFO 33209 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:17:10,758 INFO 33209 [egg:core] dump config after load, 7ms
+2020-12-07 17:17:10,868 INFO 33209 [egg-watcher:application] watcher start success
+2020-12-07 17:17:10,912 INFO 33209 [egg:core] dump config after ready, 30ms
+2020-12-07 17:17:13,734 ERROR 33209 [-/127.0.0.1/-/12ms GET /user] nodejs.TypeError: this.encode is not a function
+    at UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:23:36)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 33209
+hostname: fengwei.local
+
+2020-12-07 17:17:15,602 ERROR 33209 [-/127.0.0.1/-/2ms GET /user] nodejs.TypeError: this.encode is not a function
+    at UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:23:36)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 33209
+hostname: fengwei.local
+
+2020-12-07 17:17:17,385 ERROR 33209 [-/127.0.0.1/-/1ms GET /user] nodejs.TypeError: this.encode is not a function
+    at UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:23:36)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 33209
+hostname: fengwei.local
+
+2020-12-07 17:17:41,324 ERROR 33209 [-/127.0.0.1/-/2ms GET /user] nodejs.TypeError: this.encode is not a function
+    at UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:23:36)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 33209
+hostname: fengwei.local
+
+2020-12-07 17:17:41,932 INFO 33259 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:17:42,070 INFO 33259 [egg-multipart] stream mode enable
+2020-12-07 17:17:42,302 INFO 33259 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 17:17:42,306 INFO 33259 [egg-security] use methodnoallow middleware
+2020-12-07 17:17:42,308 INFO 33259 [egg-security] use noopen middleware
+2020-12-07 17:17:42,310 INFO 33259 [egg-security] use nosniff middleware
+2020-12-07 17:17:42,311 INFO 33259 [egg-security] use xssProtection middleware
+2020-12-07 17:17:42,312 INFO 33259 [egg-security] use xframe middleware
+2020-12-07 17:17:42,313 INFO 33259 [egg-security] use dta middleware
+2020-12-07 17:17:42,313 INFO 33259 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:17:42,325 INFO 33259 [egg:core] dump config after load, 6ms
+2020-12-07 17:17:42,350 INFO 33259 [egg-watcher:application] watcher start success
+2020-12-07 17:17:42,362 INFO 33259 [egg:core] dump config after ready, 10ms
+2020-12-07 17:34:21,611 INFO 34727 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:34:21,656 INFO 34727 [egg-multipart] stream mode enable
+2020-12-07 17:34:21,839 INFO 34727 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 17:34:21,842 INFO 34727 [egg-security] use methodnoallow middleware
+2020-12-07 17:34:21,843 INFO 34727 [egg-security] use noopen middleware
+2020-12-07 17:34:21,844 INFO 34727 [egg-security] use nosniff middleware
+2020-12-07 17:34:21,845 INFO 34727 [egg-security] use xssProtection middleware
+2020-12-07 17:34:21,845 INFO 34727 [egg-security] use xframe middleware
+2020-12-07 17:34:21,846 INFO 34727 [egg-security] use dta middleware
+2020-12-07 17:34:21,846 INFO 34727 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:34:21,867 INFO 34727 [egg:core] dump config after load, 7ms
+2020-12-07 17:34:21,887 INFO 34727 [egg-watcher:application] watcher start success
+2020-12-07 17:34:21,897 INFO 34727 [egg:core] dump config after ready, 7ms
+2020-12-07 17:34:50,167 INFO 34775 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:34:50,254 INFO 34775 [egg-multipart] stream mode enable
+2020-12-07 17:34:50,528 INFO 34775 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 17:34:50,534 INFO 34775 [egg-security] use methodnoallow middleware
+2020-12-07 17:34:50,538 INFO 34775 [egg-security] use noopen middleware
+2020-12-07 17:34:50,540 INFO 34775 [egg-security] use nosniff middleware
+2020-12-07 17:34:50,548 INFO 34775 [egg-security] use xssProtection middleware
+2020-12-07 17:34:50,549 INFO 34775 [egg-security] use xframe middleware
+2020-12-07 17:34:50,560 INFO 34775 [egg-security] use dta middleware
+2020-12-07 17:34:50,560 INFO 34775 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:34:50,613 INFO 34775 [egg:core] dump config after load, 29ms
+2020-12-07 17:34:50,642 INFO 34775 [egg-watcher:application] watcher start success
+2020-12-07 17:34:50,661 INFO 34775 [egg:core] dump config after ready, 14ms
+2020-12-07 17:35:46,373 INFO 34844 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 17:35:46,409 INFO 34844 [egg-multipart] stream mode enable
+2020-12-07 17:35:46,581 INFO 34844 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 17:35:46,585 INFO 34844 [egg-security] use methodnoallow middleware
+2020-12-07 17:35:46,586 INFO 34844 [egg-security] use noopen middleware
+2020-12-07 17:35:46,587 INFO 34844 [egg-security] use nosniff middleware
+2020-12-07 17:35:46,588 INFO 34844 [egg-security] use xssProtection middleware
+2020-12-07 17:35:46,589 INFO 34844 [egg-security] use xframe middleware
+2020-12-07 17:35:46,590 INFO 34844 [egg-security] use dta middleware
+2020-12-07 17:35:46,590 INFO 34844 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 17:35:46,607 INFO 34844 [egg:core] dump config after load, 8ms
+2020-12-07 17:35:46,631 INFO 34844 [egg-watcher:application] watcher start success
+2020-12-07 17:35:46,646 INFO 34844 [egg:core] dump config after ready, 11ms
+2020-12-07 18:06:39,815 INFO 36778 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:06:39,905 INFO 36778 [egg-multipart] stream mode enable
+2020-12-07 18:06:40,141 INFO 36778 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:06:40,147 INFO 36778 [egg-security] use methodnoallow middleware
+2020-12-07 18:06:40,147 INFO 36778 [egg-security] use noopen middleware
+2020-12-07 18:06:40,148 INFO 36778 [egg-security] use nosniff middleware
+2020-12-07 18:06:40,149 INFO 36778 [egg-security] use xssProtection middleware
+2020-12-07 18:06:40,150 INFO 36778 [egg-security] use xframe middleware
+2020-12-07 18:06:40,151 INFO 36778 [egg-security] use dta middleware
+2020-12-07 18:06:40,151 INFO 36778 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:06:40,166 INFO 36778 [egg:core] dump config after load, 8ms
+2020-12-07 18:06:40,184 INFO 36778 [egg-watcher:application] watcher start success
+2020-12-07 18:06:40,193 INFO 36778 [egg:core] dump config after ready, 7ms
+2020-12-07 18:08:14,134 INFO 36883 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:08:14,179 INFO 36883 [egg-multipart] stream mode enable
+2020-12-07 18:08:14,361 INFO 36883 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:08:14,363 INFO 36883 [egg-security] use methodnoallow middleware
+2020-12-07 18:08:14,364 INFO 36883 [egg-security] use noopen middleware
+2020-12-07 18:08:14,365 INFO 36883 [egg-security] use nosniff middleware
+2020-12-07 18:08:14,367 INFO 36883 [egg-security] use xssProtection middleware
+2020-12-07 18:08:14,368 INFO 36883 [egg-security] use xframe middleware
+2020-12-07 18:08:14,369 INFO 36883 [egg-security] use dta middleware
+2020-12-07 18:08:14,369 INFO 36883 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:08:14,387 INFO 36883 [egg:core] dump config after load, 9ms
+2020-12-07 18:08:14,404 INFO 36883 [egg-watcher:application] watcher start success
+2020-12-07 18:08:14,425 INFO 36883 [egg:core] dump config after ready, 18ms
+2020-12-07 18:19:09,835 INFO 37556 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:19:09,872 INFO 37556 [egg-multipart] stream mode enable
+2020-12-07 18:19:10,163 INFO 37556 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:19:10,165 INFO 37556 [egg-security] use methodnoallow middleware
+2020-12-07 18:19:10,166 INFO 37556 [egg-security] use noopen middleware
+2020-12-07 18:19:10,167 INFO 37556 [egg-security] use nosniff middleware
+2020-12-07 18:19:10,168 INFO 37556 [egg-security] use xssProtection middleware
+2020-12-07 18:19:10,168 INFO 37556 [egg-security] use xframe middleware
+2020-12-07 18:19:10,169 INFO 37556 [egg-security] use dta middleware
+2020-12-07 18:19:10,169 INFO 37556 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:19:10,180 INFO 37556 [egg:core] dump config after load, 5ms
+2020-12-07 18:19:10,197 INFO 37556 [egg-watcher:application] watcher start success
+2020-12-07 18:19:10,216 INFO 37556 [egg:core] dump config after ready, 14ms
+2020-12-07 18:20:49,355 INFO 37716 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:20:49,383 INFO 37716 [egg-multipart] stream mode enable
+2020-12-07 18:20:49,507 INFO 37716 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:20:49,510 INFO 37716 [egg-security] use methodnoallow middleware
+2020-12-07 18:20:49,511 INFO 37716 [egg-security] use noopen middleware
+2020-12-07 18:20:49,512 INFO 37716 [egg-security] use nosniff middleware
+2020-12-07 18:20:49,513 INFO 37716 [egg-security] use xssProtection middleware
+2020-12-07 18:20:49,515 INFO 37716 [egg-security] use xframe middleware
+2020-12-07 18:20:49,516 INFO 37716 [egg-security] use dta middleware
+2020-12-07 18:20:49,516 INFO 37716 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:20:49,532 INFO 37716 [egg:core] dump config after load, 6ms
+2020-12-07 18:20:49,544 INFO 37716 [egg-watcher:application] watcher start success
+2020-12-07 18:20:49,551 INFO 37716 [egg:core] dump config after ready, 5ms
+2020-12-07 18:22:08,484 INFO 37843 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:22:08,687 INFO 37843 [egg-multipart] stream mode enable
+2020-12-07 18:22:09,292 INFO 37843 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:22:09,295 INFO 37843 [egg-security] use methodnoallow middleware
+2020-12-07 18:22:09,297 INFO 37843 [egg-security] use noopen middleware
+2020-12-07 18:22:09,301 INFO 37843 [egg-security] use nosniff middleware
+2020-12-07 18:22:09,304 INFO 37843 [egg-security] use xssProtection middleware
+2020-12-07 18:22:09,306 INFO 37843 [egg-security] use xframe middleware
+2020-12-07 18:22:09,311 INFO 37843 [egg-security] use dta middleware
+2020-12-07 18:22:09,311 INFO 37843 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:22:09,329 INFO 37843 [egg:core] dump config after load, 6ms
+2020-12-07 18:22:09,391 INFO 37843 [egg-watcher:application] watcher start success
+2020-12-07 18:22:09,416 INFO 37843 [egg:core] dump config after ready, 22ms
+2020-12-07 18:22:16,758 INFO 37879 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:22:16,795 INFO 37879 [egg-multipart] stream mode enable
+2020-12-07 18:22:16,879 INFO 37879 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:22:16,881 INFO 37879 [egg-security] use methodnoallow middleware
+2020-12-07 18:22:16,881 INFO 37879 [egg-security] use noopen middleware
+2020-12-07 18:22:16,882 INFO 37879 [egg-security] use nosniff middleware
+2020-12-07 18:22:16,882 INFO 37879 [egg-security] use xssProtection middleware
+2020-12-07 18:22:16,882 INFO 37879 [egg-security] use xframe middleware
+2020-12-07 18:22:16,883 INFO 37879 [egg-security] use dta middleware
+2020-12-07 18:22:16,883 INFO 37879 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:22:16,894 INFO 37879 [egg:core] dump config after load, 6ms
+2020-12-07 18:22:16,904 INFO 37879 [egg-watcher:application] watcher start success
+2020-12-07 18:22:16,912 INFO 37879 [egg:core] dump config after ready, 6ms
+2020-12-07 18:23:36,173 INFO 37976 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:23:36,215 INFO 37976 [egg-multipart] stream mode enable
+2020-12-07 18:23:36,450 INFO 37976 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:23:36,457 INFO 37976 [egg-security] use methodnoallow middleware
+2020-12-07 18:23:36,458 INFO 37976 [egg-security] use noopen middleware
+2020-12-07 18:23:36,468 INFO 37976 [egg-security] use nosniff middleware
+2020-12-07 18:23:36,482 INFO 37976 [egg-security] use xssProtection middleware
+2020-12-07 18:23:36,485 INFO 37976 [egg-security] use xframe middleware
+2020-12-07 18:23:36,500 INFO 37976 [egg-security] use dta middleware
+2020-12-07 18:23:36,500 INFO 37976 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:23:36,534 INFO 37976 [egg:core] dump config after load, 22ms
+2020-12-07 18:23:36,600 INFO 37976 [egg-watcher:application] watcher start success
+2020-12-07 18:23:36,639 INFO 37976 [egg:core] dump config after ready, 37ms
+2020-12-07 18:23:45,182 WARN 37976 [-/127.0.0.1/-/58ms GET /curl/get] nodejs.JSONResponseFormatError: Unexpected token h in JSON at position 0 (data json format: "hi, egg"), GET http://localhost:7001/ 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:7001:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"8","date":"Mon, 07 Dec 2020 10:23:45 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"8","date":"Mon, 07 Dec 2020 10:23:45 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:1190:24)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:895:23
+    at decodeContent (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:699:14)
+    at handleResponseCloseAndEnd (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:876:7)
+    at IncomingMessage.<anonymous> (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:920:7)
+    at IncomingMessage.emit (node:events:339:22)
+    at endReadableNT (node:internal/streams/readable:1289:12)
+    at processTicksAndRejections (node:internal/process/task_queues:80:21)
+name: "JSONResponseFormatError"
+data: "hi, egg"
+path: "/"
+status: 200
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"8","date":"Mon, 07 Dec 2020 10:23:45 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"8","date":"Mon, 07 Dec 2020 10:23:45 GMT","connection":"keep-alive","keep-alive":"timeout=5"},"size":7,"aborted":false,"rt":37,"keepAliveSocket":false,"data":"hi, egg","requestUrls":["http://localhost:7001/"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":7001,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 37976
+hostname: fengwei.local
+
+2020-12-07 18:24:11,564 WARN 37976 [-/127.0.0.1/-/14ms GET /curl/get] nodejs.JSONResponseFormatError: Unexpected token h in JSON at position 0 (data json format: "hi, egg"), GET http://localhost:7001/ 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":1,"freeSockets":{},"sockets":{"localhost:7001:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"2","date":"Mon, 07 Dec 2020 10:24:11 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"2","date":"Mon, 07 Dec 2020 10:24:11 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:1190:24)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:895:23
+    at decodeContent (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:699:14)
+    at handleResponseCloseAndEnd (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:876:7)
+    at IncomingMessage.<anonymous> (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:920:7)
+    at IncomingMessage.emit (node:events:339:22)
+    at endReadableNT (node:internal/streams/readable:1289:12)
+    at processTicksAndRejections (node:internal/process/task_queues:80:21)
+name: "JSONResponseFormatError"
+data: "hi, egg"
+path: "/"
+status: 200
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"2","date":"Mon, 07 Dec 2020 10:24:11 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"2","date":"Mon, 07 Dec 2020 10:24:11 GMT","connection":"keep-alive","keep-alive":"timeout=5"},"size":7,"aborted":false,"rt":13,"keepAliveSocket":false,"data":"hi, egg","requestUrls":["http://localhost:7001/"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":7001,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 37976
+hostname: fengwei.local
+
+2020-12-07 18:24:38,636 WARN 37976 [-/127.0.0.1/-/44ms GET /curl/get] nodejs.JSONResponseFormatError: Unexpected token h in JSON at position 0 (data json format: "hi, egg"), GET http://localhost:7001/ 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":2,"requestCount":2,"freeSockets":{},"sockets":{"localhost:7001:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"22","date":"Mon, 07 Dec 2020 10:24:38 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"22","date":"Mon, 07 Dec 2020 10:24:38 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:1190:24)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:895:23
+    at decodeContent (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:699:14)
+    at handleResponseCloseAndEnd (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:876:7)
+    at IncomingMessage.<anonymous> (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:920:7)
+    at IncomingMessage.emit (node:events:339:22)
+    at endReadableNT (node:internal/streams/readable:1289:12)
+    at processTicksAndRejections (node:internal/process/task_queues:80:21)
+name: "JSONResponseFormatError"
+data: "hi, egg"
+path: "/"
+status: 200
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"22","date":"Mon, 07 Dec 2020 10:24:38 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"22","date":"Mon, 07 Dec 2020 10:24:38 GMT","connection":"keep-alive","keep-alive":"timeout=5"},"size":7,"aborted":false,"rt":43,"keepAliveSocket":false,"data":"hi, egg","requestUrls":["http://localhost:7001/"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":7001,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 37976
+hostname: fengwei.local
+
+2020-12-07 18:24:38,348 INFO 38058 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:24:38,384 INFO 38058 [egg-multipart] stream mode enable
+2020-12-07 18:24:38,516 INFO 38058 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:24:38,523 INFO 38058 [egg-security] use methodnoallow middleware
+2020-12-07 18:24:38,524 INFO 38058 [egg-security] use noopen middleware
+2020-12-07 18:24:38,525 INFO 38058 [egg-security] use nosniff middleware
+2020-12-07 18:24:38,528 INFO 38058 [egg-security] use xssProtection middleware
+2020-12-07 18:24:38,529 INFO 38058 [egg-security] use xframe middleware
+2020-12-07 18:24:38,532 INFO 38058 [egg-security] use dta middleware
+2020-12-07 18:24:38,532 INFO 38058 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:24:38,548 INFO 38058 [egg:core] dump config after load, 5ms
+2020-12-07 18:24:38,568 INFO 38058 [egg-watcher:application] watcher start success
+2020-12-07 18:24:38,585 INFO 38058 [egg:core] dump config after ready, 6ms
+2020-12-07 18:25:05,199 WARN 38058 [-/127.0.0.1/-/29ms GET /curl/get] nodejs.JSONResponseFormatError: Unexpected token h in JSON at position 0 (data json format: "hi, egg"), GET http://localhost:7001/ 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:7001:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"0","date":"Mon, 07 Dec 2020 10:25:05 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"0","date":"Mon, 07 Dec 2020 10:25:05 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:1190:24)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:895:23
+    at decodeContent (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:699:14)
+    at handleResponseCloseAndEnd (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:876:7)
+    at IncomingMessage.<anonymous> (/Users/Witte/Desktop/project/react-egg/egg/node_modules/urllib/lib/urllib.js:920:7)
+    at IncomingMessage.emit (node:events:339:22)
+    at endReadableNT (node:internal/streams/readable:1289:12)
+    at processTicksAndRejections (node:internal/process/task_queues:80:21)
+name: "JSONResponseFormatError"
+data: "hi, egg"
+path: "/"
+status: 200
+headers: {"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"0","date":"Mon, 07 Dec 2020 10:25:05 GMT","connection":"keep-alive","keep-alive":"timeout=5"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"content-type":"text/plain; charset=utf-8","content-length":"7","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"0","date":"Mon, 07 Dec 2020 10:25:05 GMT","connection":"keep-alive","keep-alive":"timeout=5"},"size":7,"aborted":false,"rt":23,"keepAliveSocket":false,"data":"hi, egg","requestUrls":["http://localhost:7001/"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":7001,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 38058
+hostname: fengwei.local
+
+2020-12-07 18:25:06,377 INFO 38112 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:25:06,411 INFO 38112 [egg-multipart] stream mode enable
+2020-12-07 18:25:06,695 INFO 38112 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:25:06,697 INFO 38112 [egg-security] use methodnoallow middleware
+2020-12-07 18:25:06,698 INFO 38112 [egg-security] use noopen middleware
+2020-12-07 18:25:06,699 INFO 38112 [egg-security] use nosniff middleware
+2020-12-07 18:25:06,700 INFO 38112 [egg-security] use xssProtection middleware
+2020-12-07 18:25:06,701 INFO 38112 [egg-security] use xframe middleware
+2020-12-07 18:25:06,702 INFO 38112 [egg-security] use dta middleware
+2020-12-07 18:25:06,702 INFO 38112 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:25:06,719 INFO 38112 [egg:core] dump config after load, 7ms
+2020-12-07 18:25:06,743 INFO 38112 [egg-watcher:application] watcher start success
+2020-12-07 18:25:06,810 INFO 38112 [egg:core] dump config after ready, 64ms
+2020-12-07 18:51:03,798 INFO 40222 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:51:03,825 INFO 40222 [egg-multipart] stream mode enable
+2020-12-07 18:51:03,951 INFO 40222 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:51:03,954 INFO 40222 [egg-security] use methodnoallow middleware
+2020-12-07 18:51:03,955 INFO 40222 [egg-security] use noopen middleware
+2020-12-07 18:51:03,956 INFO 40222 [egg-security] use nosniff middleware
+2020-12-07 18:51:03,956 INFO 40222 [egg-security] use xssProtection middleware
+2020-12-07 18:51:03,957 INFO 40222 [egg-security] use xframe middleware
+2020-12-07 18:51:03,958 INFO 40222 [egg-security] use dta middleware
+2020-12-07 18:51:03,958 INFO 40222 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:51:03,974 INFO 40222 [egg:core] dump config after load, 9ms
+2020-12-07 18:51:03,987 INFO 40222 [egg-watcher:application] watcher start success
+2020-12-07 18:51:03,994 INFO 40222 [egg:core] dump config after ready, 5ms
+2020-12-07 18:51:51,788 INFO 40280 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:51:51,829 INFO 40280 [egg-multipart] stream mode enable
+2020-12-07 18:51:52,016 INFO 40280 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:51:52,019 INFO 40280 [egg-security] use methodnoallow middleware
+2020-12-07 18:51:52,020 INFO 40280 [egg-security] use noopen middleware
+2020-12-07 18:51:52,021 INFO 40280 [egg-security] use nosniff middleware
+2020-12-07 18:51:52,022 INFO 40280 [egg-security] use xssProtection middleware
+2020-12-07 18:51:52,023 INFO 40280 [egg-security] use xframe middleware
+2020-12-07 18:51:52,024 INFO 40280 [egg-security] use dta middleware
+2020-12-07 18:51:52,024 INFO 40280 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:51:52,041 INFO 40280 [egg:core] dump config after load, 6ms
+2020-12-07 18:51:52,055 INFO 40280 [egg-watcher:application] watcher start success
+2020-12-07 18:51:52,263 INFO 40280 [egg:core] dump config after ready, 175ms
+2020-12-07 18:54:54,169 INFO 40488 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 18:54:54,206 INFO 40488 [egg-multipart] stream mode enable
+2020-12-07 18:54:54,337 INFO 40488 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 18:54:54,340 INFO 40488 [egg-security] use methodnoallow middleware
+2020-12-07 18:54:54,341 INFO 40488 [egg-security] use noopen middleware
+2020-12-07 18:54:54,342 INFO 40488 [egg-security] use nosniff middleware
+2020-12-07 18:54:54,343 INFO 40488 [egg-security] use xssProtection middleware
+2020-12-07 18:54:54,344 INFO 40488 [egg-security] use xframe middleware
+2020-12-07 18:54:54,344 INFO 40488 [egg-security] use dta middleware
+2020-12-07 18:54:54,344 INFO 40488 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 18:54:54,356 INFO 40488 [egg:core] dump config after load, 5ms
+2020-12-07 18:54:54,369 INFO 40488 [egg-watcher:application] watcher start success
+2020-12-07 18:54:54,376 INFO 40488 [egg:core] dump config after ready, 5ms
+2020-12-07 19:08:53,712 INFO 41682 [egg:logger] init all loggers with options: {"dir":"/Users/Witte/Desktop/project/react-egg/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-07 19:08:53,770 INFO 41682 [egg-multipart] stream mode enable
+2020-12-07 19:08:53,975 INFO 41682 [egg-static] starting static serve /assets/ -> /Users/Witte/Desktop/project/react-egg/egg/app/assets
+2020-12-07 19:08:53,978 INFO 41682 [egg-security] use methodnoallow middleware
+2020-12-07 19:08:53,979 INFO 41682 [egg-security] use noopen middleware
+2020-12-07 19:08:53,980 INFO 41682 [egg-security] use nosniff middleware
+2020-12-07 19:08:53,981 INFO 41682 [egg-security] use xssProtection middleware
+2020-12-07 19:08:53,982 INFO 41682 [egg-security] use xframe middleware
+2020-12-07 19:08:53,982 INFO 41682 [egg-security] use dta middleware
+2020-12-07 19:08:53,982 INFO 41682 [egg-security] compose 6 middlewares into one security middleware
+2020-12-07 19:08:53,994 INFO 41682 [egg:core] dump config after load, 5ms
+2020-12-07 19:08:54,006 INFO 41682 [egg-watcher:application] watcher start success
+2020-12-07 19:08:54,014 INFO 41682 [egg:core] dump config after ready, 6ms
+2020-12-07 19:14:29,076 WARN 41682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-12-07 19:14:29,079 WARN 41682 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-12-08 07:11:06,024 WARN 41682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-12-08 07:11:06,024 WARN 41682 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-12-08 07:11:06,091 INFO 41682 [-/127.0.0.1/-/5ms SCHEDULE /__schedule?path=/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/kp/x8fbcrvd52d7r29txtsk49x40000gn/T/egg-multipart-tmp/egg"
+2020-12-08 07:11:06,104 INFO 41682 [egg-logrotator] clean all log before 31 days
+2020-12-08 07:11:06,131 INFO 41682 [-/127.0.0.1/-/46ms SCHEDULE /__schedule?path=/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-12-08 07:11:06,136 INFO 41682 [egg-logrotator] broadcast log-reload
+2020-12-08 07:11:06,136 INFO 41682 [egg-logrotator] rotate files success by DayRotator, files ["/Users/Witte/Desktop/project/react-egg/egg/logs/egg/common-error.log -> /Users/Witte/Desktop/project/react-egg/egg/logs/egg/common-error.log.2020-12-07","/Users/Witte/Desktop/project/react-egg/egg/logs/egg/egg-web.log -> /Users/Witte/Desktop/project/react-egg/egg/logs/egg/egg-web.log.2020-12-07","/Users/Witte/Desktop/project/react-egg/egg/logs/egg/egg-schedule.log -> /Users/Witte/Desktop/project/react-egg/egg/logs/egg/egg-schedule.log.2020-12-07","/Users/Witte/Desktop/project/react-egg/egg/logs/egg/egg-agent.log -> /Users/Witte/Desktop/project/react-egg/egg/logs/egg/egg-agent.log.2020-12-07"]

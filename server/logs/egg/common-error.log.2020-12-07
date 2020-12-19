@@ -1,0 +1,169 @@
+2020-12-07 17:15:10,991 ERROR 33069 [-/127.0.0.1/-/18ms GET /user] nodejs.ReferenceError: /Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:21
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    at eval (/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:32:8)
+    at user (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view/lib/context_view.js:70:23)
+    at async UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:9:5)
+path: "/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html"
+pid: 33069
+hostname: fengwei.local
+
+2020-12-07 17:15:13,411 ERROR 33069 [-/127.0.0.1/-/5ms GET /user] nodejs.ReferenceError: /Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:21
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    at eval (/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:32:8)
+    at user (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view/lib/context_view.js:70:23)
+    at async UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:9:5)
+path: "/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html"
+pid: 33069
+hostname: fengwei.local
+
+2020-12-07 17:17:10,537 ERROR 33069 [-/127.0.0.1/-/5ms GET /user] nodejs.ReferenceError: /Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:21
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    19|   <br />
+    20|   
+ >> 21|   <% if(user){ %>
+    22|     已经登录：<%= user.name %>
+    23|   <% }else{ %>
+    24|     未登录
+
+user is not defined
+    at eval (/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html:32:8)
+    at user (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/Witte/Desktop/project/react-egg/egg/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-view/lib/context_view.js:70:23)
+    at async UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:9:5)
+path: "/Users/Witte/Desktop/project/react-egg/egg/app/html/user.html"
+pid: 33069
+hostname: fengwei.local
+
+2020-12-07 17:17:13,733 ERROR 33209 [-/127.0.0.1/-/12ms GET /user] nodejs.TypeError: this.encode is not a function
+    at UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:23:36)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 33209
+hostname: fengwei.local
+
+2020-12-07 17:17:15,600 ERROR 33209 [-/127.0.0.1/-/2ms GET /user] nodejs.TypeError: this.encode is not a function
+    at UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:23:36)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 33209
+hostname: fengwei.local
+
+2020-12-07 17:17:17,385 ERROR 33209 [-/127.0.0.1/-/1ms GET /user] nodejs.TypeError: this.encode is not a function
+    at UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:23:36)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 33209
+hostname: fengwei.local
+
+2020-12-07 17:17:41,324 ERROR 33209 [-/127.0.0.1/-/2ms GET /user] nodejs.TypeError: this.encode is not a function
+    at UserController.index (/Users/Witte/Desktop/project/react-egg/egg/app/controller/user.js:23:36)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Witte/Desktop/project/react-egg/egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/Witte/Desktop/project/react-egg/egg/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 33209
+hostname: fengwei.local
+
+2020-12-07 19:14:29,033 ERROR 40214 nodejs.ClusterClientNoResponseError: client no response in 274997ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Witte/Desktop/project/react-egg/egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:555:17)
+    at processTimers (node:internal/timers:498:7)
+name: "ClusterClientNoResponseError"
+pid: 40214
+hostname: fengwei.local
+
+2020-12-08 07:11:06,064 ERROR 40214 nodejs.ClusterClientNoResponseError: client no response in 42974234ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Witte/Desktop/project/react-egg/egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:555:17)
+    at processTimers (node:internal/timers:498:7)
+name: "ClusterClientNoResponseError"
+pid: 40214
+hostname: fengwei.local
+

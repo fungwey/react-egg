@@ -8,7 +8,7 @@ export default {
     id: undefined,
     username: undefined,
     avatar: undefined,
-    tel: undefined,
+    phone: undefined,
     sign: undefined,
   },
   reducers: {
@@ -56,8 +56,10 @@ export default {
       if (result) {
         // cookie.set('user', );
         Toast.success('登陆成功');
-        history.push(urlGet('from'));
-        cookie.set('user', JSON.stringify(result));
+        urlGet('from') && history.push(urlGet('from'));
+        // cookie.set('user', JSON.stringify(result));
+        localStorage.setItem('token', result.token);
+        localStorage.setItem('username', result.username);
       }
     },
     async registerAsync(dispatch, rootState, payload) {
@@ -67,8 +69,19 @@ export default {
       });
       if (result) {
         Toast.success('注册成功');
-        cookie.set('user', JSON.stringify(result));
+        // cookie.set('user', JSON.stringify(result));
+        localStorage.setItem('token', result.token);
+        localStorage.setItem('username', result.username);
       }
+    },
+    async logoutAsync(dispatch, rootState, payload) {
+      await Http({
+        url: '/user/logout',
+        body: payload,
+      });
+      Toast.success('退出登录成功');
+      localStorage.clear();
+      location.href = '/login?from=' + location.pathname;
     },
   },
 };
